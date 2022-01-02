@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.Extensions.DependencyInjection;
+using System;
 using System.Windows.Forms;
 
 namespace SistemaLDA
@@ -17,7 +11,8 @@ namespace SistemaLDA
         public InitForm()
         {
             InitializeComponent();
-            TelaInicial = new();
+            TelaInicial = Program.ServiceProvider.GetRequiredService<MainScreen>();
+
         }
 
         private void TimeShowing_Tick(object sender, EventArgs e)
@@ -25,7 +20,7 @@ namespace SistemaLDA
             TimeShowing.Enabled = true;
             ProgressBar.Increment(4);
 
-            if(ProgressBar.Value == 100)
+            if (ProgressBar.Value == 100)
             {
                 TimeShowing.Enabled = false;
                 TelaInicial.Show();

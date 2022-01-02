@@ -12,6 +12,8 @@
 
         public uint IdElement { get; set; }
 
+        public uint Level { get; set; }
+
         public uint SpellCastSpeed { get; set; }
 
         public uint Exp { get; set; }
