@@ -2,6 +2,10 @@
 {
     public class BreedStaticBonus
     {
+        public uint Id { get; set; }
+
+        public string Description { get; set; }
+
         public uint Survival { get; set; }
 
         public uint Perception { get; set; }

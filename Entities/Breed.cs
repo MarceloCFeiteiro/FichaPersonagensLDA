@@ -8,9 +8,9 @@
 
         public uint Constitution { get; set; }
 
-        public uint IdElement { get; set; }
+        public string Element { get; set; }
 
-        public uint IdStaticBonus { get; set; }
+        public uint IdBreedStaticBonus { get; set; }
 
         public string Style { get; set; }
 
