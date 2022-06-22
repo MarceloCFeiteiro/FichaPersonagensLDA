@@ -66,5 +66,12 @@ namespace Utils
 
             return titulo;
         }
+
+        public static bool FichaEstaNaPasta()
+        {
+            return File.Exists("FichaMarcelo.pdf");
+        }
     }
+
+
 }

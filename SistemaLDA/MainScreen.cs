@@ -2,6 +2,7 @@
 using Entities;
 using System;
 using System.Windows.Forms;
+using Utils;
 
 namespace SistemaLDA
 {
@@ -13,12 +14,6 @@ namespace SistemaLDA
         {
             InitializeComponent();
             _appCharacter = appCharacter;
-        }
-
-
-        private void MainScreen_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void BtnSalvar_Click(object sender, EventArgs e)
@@ -37,6 +32,9 @@ namespace SistemaLDA
             };
 
             _appCharacter.ImprimirFicha(personagem);
+            if (HelpArquivoPdf.FichaEstaNaPasta())
+                MessageBox.Show("Sua ficha foi impressa.");
+
         }
     }
 }

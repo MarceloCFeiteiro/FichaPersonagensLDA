@@ -1,11 +1,4 @@
-using ApplicationApp.Interfaces;
-using ApplicationApp.OpenApp;
-using Domain;
-using Domain.Interfaces.Generics;
-using Domain.Interfaces.InterfacesEntities;
 using HelpConfig;
-using InfraStructure;
-using InfraStructure.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Windows.Forms;
@@ -23,7 +16,7 @@ namespace SistemaLDA
         static void Main()
         {
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
-            //   Application.EnableVisualStyles();
+            Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
 

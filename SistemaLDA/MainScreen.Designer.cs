@@ -2,6 +2,9 @@
 
 namespace SistemaLDA
 {
+    /// <summary>
+    /// Patial Class que define o cabeçalho com as características do personagem
+    /// </summary>
     partial class MainScreen
     {
         /// <summary>
@@ -13,15 +16,15 @@ namespace SistemaLDA
 
         private GroupBox GBCaracteristcs;
 
-        private Label NomePresonagem;
-        private Label RacaPersonagem;
-        private Label ClassePersonagem;
-        private Label Nivel;
-        private Label Elemento;
-        private Label VelConjuracao;
-        private Label Exp;
-        private Label Constituicao;
-        private Label PoderAura;
+        private Label LblNomePersonagem;
+        private Label LblRacaPersonagem;
+        private Label LblClassePersonagem;
+        private Label LblNivel;
+        private Label LblElemento;
+        private Label LblVelConjuracao;
+        private Label LblExp;
+        private Label LblConstituicao;
+        private Label LblPoderAura;
 
         private TextBox TxtNome;
         private TextBox TxtRaca;
@@ -58,21 +61,21 @@ namespace SistemaLDA
             this.TxtExp = new System.Windows.Forms.TextBox();
             this.TxtConstituicao = new System.Windows.Forms.TextBox();
             this.TxtPoderAura = new System.Windows.Forms.TextBox();
-            this.Exp = new System.Windows.Forms.Label();
-            this.Constituicao = new System.Windows.Forms.Label();
-            this.PoderAura = new System.Windows.Forms.Label();
+            this.LblExp = new System.Windows.Forms.Label();
+            this.LblConstituicao = new System.Windows.Forms.Label();
+            this.LblPoderAura = new System.Windows.Forms.Label();
             this.TxtNivel = new System.Windows.Forms.TextBox();
             this.TxtElemento = new System.Windows.Forms.TextBox();
             this.TxtVelConjuracao = new System.Windows.Forms.TextBox();
-            this.Nivel = new System.Windows.Forms.Label();
-            this.Elemento = new System.Windows.Forms.Label();
-            this.VelConjuracao = new System.Windows.Forms.Label();
+            this.LblNivel = new System.Windows.Forms.Label();
+            this.LblElemento = new System.Windows.Forms.Label();
+            this.LblVelConjuracao = new System.Windows.Forms.Label();
             this.TxtRaca = new System.Windows.Forms.TextBox();
             this.TxtClasse = new System.Windows.Forms.TextBox();
             this.TxtNome = new System.Windows.Forms.TextBox();
-            this.RacaPersonagem = new System.Windows.Forms.Label();
-            this.ClassePersonagem = new System.Windows.Forms.Label();
-            this.NomePresonagem = new System.Windows.Forms.Label();
+            this.LblRacaPersonagem = new System.Windows.Forms.Label();
+            this.LblClassePersonagem = new System.Windows.Forms.Label();
+            this.LblNomePersonagem = new System.Windows.Forms.Label();
             this.BtnSalvar = new System.Windows.Forms.Button();
             this.GBCaracteristcs.SuspendLayout();
             this.SuspendLayout();
@@ -82,21 +85,21 @@ namespace SistemaLDA
             this.GBCaracteristcs.Controls.Add(this.TxtExp);
             this.GBCaracteristcs.Controls.Add(this.TxtConstituicao);
             this.GBCaracteristcs.Controls.Add(this.TxtPoderAura);
-            this.GBCaracteristcs.Controls.Add(this.Exp);
-            this.GBCaracteristcs.Controls.Add(this.Constituicao);
-            this.GBCaracteristcs.Controls.Add(this.PoderAura);
+            this.GBCaracteristcs.Controls.Add(this.LblExp);
+            this.GBCaracteristcs.Controls.Add(this.LblConstituicao);
+            this.GBCaracteristcs.Controls.Add(this.LblPoderAura);
             this.GBCaracteristcs.Controls.Add(this.TxtNivel);
             this.GBCaracteristcs.Controls.Add(this.TxtElemento);
             this.GBCaracteristcs.Controls.Add(this.TxtVelConjuracao);
-            this.GBCaracteristcs.Controls.Add(this.Nivel);
-            this.GBCaracteristcs.Controls.Add(this.Elemento);
-            this.GBCaracteristcs.Controls.Add(this.VelConjuracao);
+            this.GBCaracteristcs.Controls.Add(this.LblNivel);
+            this.GBCaracteristcs.Controls.Add(this.LblElemento);
+            this.GBCaracteristcs.Controls.Add(this.LblVelConjuracao);
             this.GBCaracteristcs.Controls.Add(this.TxtRaca);
             this.GBCaracteristcs.Controls.Add(this.TxtClasse);
             this.GBCaracteristcs.Controls.Add(this.TxtNome);
-            this.GBCaracteristcs.Controls.Add(this.RacaPersonagem);
-            this.GBCaracteristcs.Controls.Add(this.ClassePersonagem);
-            this.GBCaracteristcs.Controls.Add(this.NomePresonagem);
+            this.GBCaracteristcs.Controls.Add(this.LblRacaPersonagem);
+            this.GBCaracteristcs.Controls.Add(this.LblClassePersonagem);
+            this.GBCaracteristcs.Controls.Add(this.LblNomePersonagem);
             this.GBCaracteristcs.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.GBCaracteristcs.Location = new System.Drawing.Point(32, 20);
             this.GBCaracteristcs.Name = "GBCaracteristcs";
@@ -137,33 +140,33 @@ namespace SistemaLDA
             // 
             // Exp
             // 
-            this.Exp.AutoSize = true;
-            this.Exp.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Exp.Location = new System.Drawing.Point(686, 48);
-            this.Exp.Name = "Exp";
-            this.Exp.Size = new System.Drawing.Size(34, 20);
-            this.Exp.TabIndex = 14;
-            this.Exp.Text = "EXP";
+            this.LblExp.AutoSize = true;
+            this.LblExp.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.LblExp.Location = new System.Drawing.Point(686, 48);
+            this.LblExp.Name = "Exp";
+            this.LblExp.Size = new System.Drawing.Size(34, 20);
+            this.LblExp.TabIndex = 14;
+            this.LblExp.Text = "EXP";
             // 
             // Constituicao
             // 
-            this.Constituicao.AutoSize = true;
-            this.Constituicao.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Constituicao.Location = new System.Drawing.Point(686, 84);
-            this.Constituicao.Name = "Constituicao";
-            this.Constituicao.Size = new System.Drawing.Size(91, 20);
-            this.Constituicao.TabIndex = 13;
-            this.Constituicao.Text = "Constituicao";
+            this.LblConstituicao.AutoSize = true;
+            this.LblConstituicao.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.LblConstituicao.Location = new System.Drawing.Point(686, 84);
+            this.LblConstituicao.Name = "Constituicao";
+            this.LblConstituicao.Size = new System.Drawing.Size(91, 20);
+            this.LblConstituicao.TabIndex = 13;
+            this.LblConstituicao.Text = "Constituicao";
             // 
             // PoderAura
             // 
-            this.PoderAura.AutoSize = true;
-            this.PoderAura.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.PoderAura.Location = new System.Drawing.Point(686, 119);
-            this.PoderAura.Name = "PoderAura";
-            this.PoderAura.Size = new System.Drawing.Size(82, 20);
-            this.PoderAura.TabIndex = 12;
-            this.PoderAura.Text = "Poder Aura";
+            this.LblPoderAura.AutoSize = true;
+            this.LblPoderAura.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.LblPoderAura.Location = new System.Drawing.Point(686, 119);
+            this.LblPoderAura.Name = "PoderAura";
+            this.LblPoderAura.Size = new System.Drawing.Size(82, 20);
+            this.LblPoderAura.TabIndex = 12;
+            this.LblPoderAura.Text = "Poder Aura";
             // 
             // TxtNivel
             // 
@@ -197,33 +200,33 @@ namespace SistemaLDA
             // 
             // Nivel
             // 
-            this.Nivel.AutoSize = true;
-            this.Nivel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Nivel.Location = new System.Drawing.Point(336, 119);
-            this.Nivel.Name = "Nivel";
-            this.Nivel.Size = new System.Drawing.Size(43, 20);
-            this.Nivel.TabIndex = 8;
-            this.Nivel.Text = "Nível";
+            this.LblNivel.AutoSize = true;
+            this.LblNivel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.LblNivel.Location = new System.Drawing.Point(336, 119);
+            this.LblNivel.Name = "Nivel";
+            this.LblNivel.Size = new System.Drawing.Size(43, 20);
+            this.LblNivel.TabIndex = 8;
+            this.LblNivel.Text = "Nível";
             // 
             // Elemento
             // 
-            this.Elemento.AutoSize = true;
-            this.Elemento.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Elemento.Location = new System.Drawing.Point(336, 84);
-            this.Elemento.Name = "Elemento";
-            this.Elemento.Size = new System.Drawing.Size(72, 20);
-            this.Elemento.TabIndex = 7;
-            this.Elemento.Text = "Elemento";
+            this.LblElemento.AutoSize = true;
+            this.LblElemento.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.LblElemento.Location = new System.Drawing.Point(336, 84);
+            this.LblElemento.Name = "Elemento";
+            this.LblElemento.Size = new System.Drawing.Size(72, 20);
+            this.LblElemento.TabIndex = 7;
+            this.LblElemento.Text = "Elemento";
             // 
             // VelConjuracao
             // 
-            this.VelConjuracao.AutoSize = true;
-            this.VelConjuracao.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.VelConjuracao.Location = new System.Drawing.Point(336, 48);
-            this.VelConjuracao.Name = "VelConjuracao";
-            this.VelConjuracao.Size = new System.Drawing.Size(111, 20);
-            this.VelConjuracao.TabIndex = 6;
-            this.VelConjuracao.Text = "Vel. Conjuração";
+            this.LblVelConjuracao.AutoSize = true;
+            this.LblVelConjuracao.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.LblVelConjuracao.Location = new System.Drawing.Point(336, 48);
+            this.LblVelConjuracao.Name = "VelConjuracao";
+            this.LblVelConjuracao.Size = new System.Drawing.Size(111, 20);
+            this.LblVelConjuracao.TabIndex = 6;
+            this.LblVelConjuracao.Text = "Vel. Conjuração";
             // 
             // TxtRaca
             // 
@@ -257,33 +260,33 @@ namespace SistemaLDA
             // 
             // RacaPersonagem
             // 
-            this.RacaPersonagem.AutoSize = true;
-            this.RacaPersonagem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RacaPersonagem.Location = new System.Drawing.Point(6, 124);
-            this.RacaPersonagem.Name = "RacaPersonagem";
-            this.RacaPersonagem.Size = new System.Drawing.Size(41, 20);
-            this.RacaPersonagem.TabIndex = 2;
-            this.RacaPersonagem.Text = "Raça";
+            this.LblRacaPersonagem.AutoSize = true;
+            this.LblRacaPersonagem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.LblRacaPersonagem.Location = new System.Drawing.Point(6, 124);
+            this.LblRacaPersonagem.Name = "RacaPersonagem";
+            this.LblRacaPersonagem.Size = new System.Drawing.Size(41, 20);
+            this.LblRacaPersonagem.TabIndex = 2;
+            this.LblRacaPersonagem.Text = "Raça";
             // 
             // ClassePersonagem
             // 
-            this.ClassePersonagem.AutoSize = true;
-            this.ClassePersonagem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ClassePersonagem.Location = new System.Drawing.Point(6, 84);
-            this.ClassePersonagem.Name = "ClassePersonagem";
-            this.ClassePersonagem.Size = new System.Drawing.Size(50, 20);
-            this.ClassePersonagem.TabIndex = 1;
-            this.ClassePersonagem.Text = "Classe";
+            this.LblClassePersonagem.AutoSize = true;
+            this.LblClassePersonagem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.LblClassePersonagem.Location = new System.Drawing.Point(6, 84);
+            this.LblClassePersonagem.Name = "ClassePersonagem";
+            this.LblClassePersonagem.Size = new System.Drawing.Size(50, 20);
+            this.LblClassePersonagem.TabIndex = 1;
+            this.LblClassePersonagem.Text = "Classe";
             // 
-            // NomePresonagem
+            // NomePersonagem
             // 
-            this.NomePresonagem.AutoSize = true;
-            this.NomePresonagem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.NomePresonagem.Location = new System.Drawing.Point(6, 48);
-            this.NomePresonagem.Name = "NomePresonagem";
-            this.NomePresonagem.Size = new System.Drawing.Size(50, 20);
-            this.NomePresonagem.TabIndex = 0;
-            this.NomePresonagem.Text = "Nome";
+            this.LblNomePersonagem.AutoSize = true;
+            this.LblNomePersonagem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.LblNomePersonagem.Location = new System.Drawing.Point(6, 48);
+            this.LblNomePersonagem.Name = "NomePersonagem";
+            this.LblNomePersonagem.Size = new System.Drawing.Size(50, 20);
+            this.LblNomePersonagem.TabIndex = 0;
+            this.LblNomePersonagem.Text = "Nome";
             // 
             // BtnSalvar
             // 
@@ -307,13 +310,6 @@ namespace SistemaLDA
 
         }
 
-
-
-
-
-
-
         #endregion
-
     }
 }
