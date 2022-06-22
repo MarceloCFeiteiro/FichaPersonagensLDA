@@ -2,6 +2,7 @@
 using Domain.Interfaces.InterfacesEntities;
 using Entities;
 using System.Threading.Tasks;
+using Utils;
 
 namespace Domain
 {
@@ -17,6 +18,11 @@ namespace Domain
         public async Task AddCharacter(Character character)
         {
             await _character.Add(character);
+        }
+
+        public void ImprimirFichaPersonagem(Character personagem)
+        {
+            HelpArquivoPdf.ImprimirFichaPdf(personagem);
         }
     }
 }

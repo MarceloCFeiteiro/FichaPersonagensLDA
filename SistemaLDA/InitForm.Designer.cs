@@ -11,6 +11,8 @@ namespace SistemaLDA
 
         private Timer TimeShowing;
 
+        private ProgressBar ProgressBar;
+
         /// <summary>
         ///  Clean up any resources being used.
         /// </summary>
@@ -76,7 +78,6 @@ namespace SistemaLDA
 
         #endregion
 
-        private ProgressBar ProgressBar;
     }
 }
 

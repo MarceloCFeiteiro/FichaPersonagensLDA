@@ -7,10 +7,12 @@
         public string Name { get; set; }
 
         public uint IdBreed { get; set; }
-
+        
         public uint IdClass { get; set; }
 
-        public uint IdElement { get; set; }
+        public string Element { get; set; }
+
+        public uint Level { get; set; }
 
         public uint SpellCastSpeed { get; set; }
 
