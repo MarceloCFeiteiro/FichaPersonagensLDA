@@ -1,13 +1,14 @@
+using HelpConfig;
+using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SistemaLDA
 {
-    static class Program
+    public static class Program
     {
+        public static IServiceProvider ServiceProvider { get; set; }
+
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
@@ -15,10 +16,30 @@ namespace SistemaLDA
         static void Main()
         {
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
-         //   Application.EnableVisualStyles();
+            Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new InitForm());
-            
+
+
+            var servicesCollection = new ServiceCollection();
+            ConfigureServices(servicesCollection);
+
+
+            ServiceProvider = servicesCollection.BuildServiceProvider();
+
+            var initForm = ServiceProvider.GetRequiredService<InitForm>();
+
+            Application.Run(initForm);
+
+        }
+
+        static void ConfigureServices(ServiceCollection serviceCollection)
+        {
+
+            serviceCollection
+                .AddSingleton<InitForm>()
+                .AddSingleton<MainScreen>();
+
+            HelpStartup.ConfigureSingleton(serviceCollection);
         }
     }
 }
