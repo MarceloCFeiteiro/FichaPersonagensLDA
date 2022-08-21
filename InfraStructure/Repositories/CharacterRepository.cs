@@ -29,6 +29,10 @@ namespace InfraStructure.Repositories
                     var result = await this.connection.ExecuteAsync(sql, obj);
                 }
             }
+            catch (InvalidOperationException ioe)
+            {
+                throw ioe;
+            }
             catch (Exception e)
             {
                 throw e;
