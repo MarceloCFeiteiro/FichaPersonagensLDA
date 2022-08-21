@@ -5,13 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Entities\Entities.csproj" />
-    <ProjectReference Include="..\InfraStructure\InfraStructure.csproj" />
-    <ProjectReference Include="..\Utils\Utils.csproj" />
+    <Compile Remove="Interfaces\InterfacesEntities\**" />
+    <EmbeddedResource Remove="Interfaces\InterfacesEntities\**" />
+    <None Remove="Interfaces\InterfacesEntities\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\InterfacesEntities\" />
+    <ProjectReference Include="..\Entities\Entities.csproj" />
+    <ProjectReference Include="..\InfraStructure\InfraStructure.csproj" />
+    <ProjectReference Include="..\Utils\Utils.csproj" />
   </ItemGroup>
 
 </Project>
