@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Domain.Interfaces.Generics
+namespace InfraStructure.Interfaces
 {
     public interface IGenerics<T> where T : class
     {
