@@ -31,6 +31,8 @@ namespace SistemaLDA
                 //AuraPower = uint.Parse(TxtPoderAura.Text)
             };
 
+            _appCharacter.AddCharacter(personagem);
+
             _appCharacter.ImprimirFicha(personagem);
             if (HelpArquivoPdf.FichaEstaNaPasta())
                 MessageBox.Show("Sua ficha foi impressa.");

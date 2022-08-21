@@ -2,8 +2,8 @@
 using ApplicationApp.OpenApp;
 using Domain;
 using Domain.Interfaces.Generics;
-using Domain.Interfaces.InterfacesEntities;
 using InfraStructure;
+using InfraStructure.Interfaces;
 using InfraStructure.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -14,9 +14,11 @@ namespace HelpConfig
         public static void ConfigureSingleton(IServiceCollection services)
         {
 
-            // INTERFACE E REPOSITORIO
-            services.AddSingleton(typeof(IGenerics<>), typeof(RepositoryGenerics<>))
-            .AddSingleton<ICharacter, CharacterRepository>();
+            // INTERFACE REPOSITORIO
+            //    services.AddSingleton(typeof(IGenerics<>), typeof(RepositoryGenerics<>))
+            //   .AddSingleton<ICharacter, CharacterRepository>();
+            services.AddSingleton<IUnitOfWork, UnitOfWork>();
+            services.AddSingleton<ICharacterRepository, CharacterRepository>();
 
             // INTERFACE APLICAÇÃO
             //  services.AddSingleton<IInterfaceProductApp, AppProduct>();
