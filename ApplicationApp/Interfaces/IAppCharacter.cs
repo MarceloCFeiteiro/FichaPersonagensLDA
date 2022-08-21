@@ -7,5 +7,6 @@ namespace ApplicationApp.Interfaces
     public interface IAppCharacter : IGenericApp<Character>
     {
         void ImprimirFicha(Character character);
+        Task AddCharacter(Character obj);
     }
 }

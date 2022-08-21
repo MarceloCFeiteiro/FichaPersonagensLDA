@@ -1,4 +1,4 @@
-﻿using Domain.Interfaces.Generics;
+﻿using InfraStructure.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;

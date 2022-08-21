@@ -1,4 +1,5 @@
 using HelpConfig;
+using InfraStructure;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Windows.Forms;
@@ -34,10 +35,8 @@ namespace SistemaLDA
 
         static void ConfigureServices(ServiceCollection serviceCollection)
         {
-
-            serviceCollection
-                .AddSingleton<InitForm>()
-                .AddSingleton<MainScreen>();
+            serviceCollection.AddSingleton<InitForm>()
+            .AddSingleton<MainScreen>();
 
             HelpStartup.ConfigureSingleton(serviceCollection);
         }

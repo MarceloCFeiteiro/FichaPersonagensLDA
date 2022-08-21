@@ -1,6 +1,6 @@
 ﻿using Domain.Interfaces.Generics;
-using Domain.Interfaces.InterfacesEntities;
 using Entities;
+using InfraStructure.Interfaces;
 using System.Threading.Tasks;
 using Utils;
 
@@ -8,16 +8,16 @@ namespace Domain
 {
     public class ServiceCharacter : IServiceCharacter
     {
-        private readonly ICharacter _character;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public ServiceCharacter(ICharacter character)
+        public ServiceCharacter(IUnitOfWork unitOfWork)
         {
-            _character = character;
+            _unitOfWork = unitOfWork;
         }
 
         public async Task AddCharacter(Character character)
         {
-            await _character.Add(character);
+            await _unitOfWork.CharacterRepository.Add(character);
         }
 
         public void ImprimirFichaPersonagem(Character personagem)

@@ -22,6 +22,5 @@
 
         public uint AuraPower { get; set; }
 
-        public uint IdStaticAttributes { get; set; }
     }
 }

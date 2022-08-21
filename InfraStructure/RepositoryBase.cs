@@ -2,13 +2,13 @@
 
 namespace InfraStructure
 {
-    public abstract class ContextBase
+    public abstract class RepositoryBase
     {
         private readonly string _connectionString;
 
-        public ContextBase()
+        public RepositoryBase()
         {
-            this._connectionString = "Data Source =.\\SQLEXPRESS; Initial Catalog = SISTEMA_LDAP; Integrated Security = True";
+            this._connectionString = "Data Source =.\\SQLEXPRESS;Initial Catalog=SISTEMA_LDAP;Integrated Security=True";
         }
 
         protected SqlConnection GetSqlConnection()
