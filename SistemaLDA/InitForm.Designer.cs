@@ -72,7 +72,7 @@ namespace SistemaLDA
         private void TimeShowingImage()
         {
             this.TimeShowing.Enabled = true;
-            this.TimeShowing.Interval = 100;                
+            this.TimeShowing.Interval = 10;                
             this.TimeShowing.Tick += new System.EventHandler(this.TimeShowing_Tick);
         }
 

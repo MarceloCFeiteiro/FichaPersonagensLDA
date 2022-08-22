@@ -20,7 +20,7 @@ namespace SistemaLDA
         {
             var personagem = new Character
             {
-                Name = TxtNome.Text,
+               // Name = TxtNome.Text,
                 //IdClass = uint.Parse(TxtClasse.Text),
                 //IdBreed = uint.Parse(TxtRaca.Text),
                 //SpellCastSpeed = uint.Parse(TxtVelConjuracao.Text),
