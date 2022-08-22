@@ -56,8 +56,27 @@ namespace SistemaLDA
             this.txtAuraPower = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.lblMutableAttributesHeader = new System.Windows.Forms.Label();
+            this.tlpMutableAttributesHeader = new System.Windows.Forms.TableLayoutPanel();
+            this.tlpMutableAttributesValues = new System.Windows.Forms.TableLayoutPanel();
+            this.lblMutableAttributesBase = new System.Windows.Forms.Label();
+            this.lblMutableAttributesBreed = new System.Windows.Forms.Label();
+            this.lblMutableAttributesClass = new System.Windows.Forms.Label();
+            this.lblMutableAttributesEquip = new System.Windows.Forms.Label();
+            this.lblMutableAttributesTotalLevel = new System.Windows.Forms.Label();
+            this.lblMutableAttributesTotal = new System.Windows.Forms.Label();
+            this.lblLifePoints = new System.Windows.Forms.Label();
+            this.lblManaPoints = new System.Windows.Forms.Label();
+            this.lblPhisicalDamage = new System.Windows.Forms.Label();
+            this.lblMagicDamage = new System.Windows.Forms.Label();
+            this.lblPhisicalDefense = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.lblDirectDamage = new System.Windows.Forms.Label();
+            this.lblDamageReduction = new System.Windows.Forms.Label();
             this.LayoutCabecalho.SuspendLayout();
             this.tlpCharct.SuspendLayout();
+            this.tlpMutableAttributesHeader.SuspendLayout();
+            this.tlpMutableAttributesValues.SuspendLayout();
             this.SuspendLayout();
             // 
             // LayoutCabecalho
@@ -338,9 +357,222 @@ namespace SistemaLDA
             this.tableLayoutPanel2.Size = new System.Drawing.Size(200, 100);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
+            // lblMutableAttributesHeader
+            // 
+            this.lblMutableAttributesHeader.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblMutableAttributesHeader.AutoSize = true;
+            this.lblMutableAttributesHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblMutableAttributesHeader.Location = new System.Drawing.Point(395, 2);
+            this.lblMutableAttributesHeader.Name = "lblMutableAttributesHeader";
+            this.lblMutableAttributesHeader.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblMutableAttributesHeader.Size = new System.Drawing.Size(194, 28);
+            this.lblMutableAttributesHeader.TabIndex = 4;
+            this.lblMutableAttributesHeader.Text = "Atributos Mutáveis";
+            // 
+            // tlpMutableAttributesHeader
+            // 
+            this.tlpMutableAttributesHeader.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tlpMutableAttributesHeader.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tlpMutableAttributesHeader.ColumnCount = 3;
+            this.tlpMutableAttributesHeader.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.109929F));
+            this.tlpMutableAttributesHeader.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 95.78014F));
+            this.tlpMutableAttributesHeader.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.109929F));
+            this.tlpMutableAttributesHeader.Controls.Add(this.lblMutableAttributesHeader, 1, 0);
+            this.tlpMutableAttributesHeader.Location = new System.Drawing.Point(12, 208);
+            this.tlpMutableAttributesHeader.Name = "tlpMutableAttributesHeader";
+            this.tlpMutableAttributesHeader.RowCount = 1;
+            this.tlpMutableAttributesHeader.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tlpMutableAttributesHeader.Size = new System.Drawing.Size(987, 33);
+            this.tlpMutableAttributesHeader.TabIndex = 4;
+            // 
+            // tlpMutableAttributesValues
+            // 
+            this.tlpMutableAttributesValues.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tlpMutableAttributesValues.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tlpMutableAttributesValues.ColumnCount = 7;
+            this.tlpMutableAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.95132F));
+            this.tlpMutableAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.44625F));
+            this.tlpMutableAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.tlpMutableAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.tlpMutableAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.tlpMutableAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.tlpMutableAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.tlpMutableAttributesValues.Controls.Add(this.lblMutableAttributesBase, 1, 0);
+            this.tlpMutableAttributesValues.Controls.Add(this.lblMutableAttributesBreed, 2, 0);
+            this.tlpMutableAttributesValues.Controls.Add(this.lblMutableAttributesClass, 3, 0);
+            this.tlpMutableAttributesValues.Controls.Add(this.lblMutableAttributesEquip, 4, 0);
+            this.tlpMutableAttributesValues.Controls.Add(this.lblMutableAttributesTotalLevel, 5, 0);
+            this.tlpMutableAttributesValues.Controls.Add(this.lblMutableAttributesTotal, 6, 0);
+            this.tlpMutableAttributesValues.Controls.Add(this.lblLifePoints, 0, 1);
+            this.tlpMutableAttributesValues.Controls.Add(this.lblManaPoints, 0, 2);
+            this.tlpMutableAttributesValues.Controls.Add(this.lblPhisicalDamage, 0, 3);
+            this.tlpMutableAttributesValues.Controls.Add(this.lblMagicDamage, 0, 4);
+            this.tlpMutableAttributesValues.Controls.Add(this.lblPhisicalDefense, 0, 5);
+            this.tlpMutableAttributesValues.Controls.Add(this.label7, 0, 6);
+            this.tlpMutableAttributesValues.Controls.Add(this.lblDirectDamage, 0, 7);
+            this.tlpMutableAttributesValues.Controls.Add(this.lblDamageReduction, 0, 8);
+            this.tlpMutableAttributesValues.Location = new System.Drawing.Point(12, 247);
+            this.tlpMutableAttributesValues.Name = "tlpMutableAttributesValues";
+            this.tlpMutableAttributesValues.RowCount = 9;
+            this.tlpMutableAttributesValues.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tlpMutableAttributesValues.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tlpMutableAttributesValues.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tlpMutableAttributesValues.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tlpMutableAttributesValues.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tlpMutableAttributesValues.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tlpMutableAttributesValues.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tlpMutableAttributesValues.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tlpMutableAttributesValues.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tlpMutableAttributesValues.Size = new System.Drawing.Size(987, 259);
+            this.tlpMutableAttributesValues.TabIndex = 5;
+            // 
+            // lblMutableAttributesBase
+            // 
+            this.lblMutableAttributesBase.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblMutableAttributesBase.AutoSize = true;
+            this.lblMutableAttributesBase.Location = new System.Drawing.Point(209, 4);
+            this.lblMutableAttributesBase.Name = "lblMutableAttributesBase";
+            this.lblMutableAttributesBase.Size = new System.Drawing.Size(40, 20);
+            this.lblMutableAttributesBase.TabIndex = 0;
+            this.lblMutableAttributesBase.Text = "Base";
+            // 
+            // lblMutableAttributesBreed
+            // 
+            this.lblMutableAttributesBreed.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblMutableAttributesBreed.AutoSize = true;
+            this.lblMutableAttributesBreed.Location = new System.Drawing.Point(330, 4);
+            this.lblMutableAttributesBreed.Name = "lblMutableAttributesBreed";
+            this.lblMutableAttributesBreed.Size = new System.Drawing.Size(41, 20);
+            this.lblMutableAttributesBreed.TabIndex = 1;
+            this.lblMutableAttributesBreed.Text = "Raça";
+            // 
+            // lblMutableAttributesClass
+            // 
+            this.lblMutableAttributesClass.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblMutableAttributesClass.AutoSize = true;
+            this.lblMutableAttributesClass.Location = new System.Drawing.Point(467, 4);
+            this.lblMutableAttributesClass.Name = "lblMutableAttributesClass";
+            this.lblMutableAttributesClass.Size = new System.Drawing.Size(50, 20);
+            this.lblMutableAttributesClass.TabIndex = 2;
+            this.lblMutableAttributesClass.Text = "Classe";
+            // 
+            // lblMutableAttributesEquip
+            // 
+            this.lblMutableAttributesEquip.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblMutableAttributesEquip.AutoSize = true;
+            this.lblMutableAttributesEquip.Location = new System.Drawing.Point(605, 4);
+            this.lblMutableAttributesEquip.Name = "lblMutableAttributesEquip";
+            this.lblMutableAttributesEquip.Size = new System.Drawing.Size(55, 20);
+            this.lblMutableAttributesEquip.TabIndex = 3;
+            this.lblMutableAttributesEquip.Text = "Equipe";
+            // 
+            // lblMutableAttributesTotalLevel
+            // 
+            this.lblMutableAttributesTotalLevel.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblMutableAttributesTotalLevel.AutoSize = true;
+            this.lblMutableAttributesTotalLevel.Location = new System.Drawing.Point(720, 4);
+            this.lblMutableAttributesTotalLevel.Name = "lblMutableAttributesTotalLevel";
+            this.lblMutableAttributesTotalLevel.Size = new System.Drawing.Size(107, 20);
+            this.lblMutableAttributesTotalLevel.TabIndex = 4;
+            this.lblMutableAttributesTotalLevel.Text = "Total por Nível";
+            // 
+            // lblMutableAttributesTotal
+            // 
+            this.lblMutableAttributesTotal.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblMutableAttributesTotal.AutoSize = true;
+            this.lblMutableAttributesTotal.Location = new System.Drawing.Point(894, 4);
+            this.lblMutableAttributesTotal.Name = "lblMutableAttributesTotal";
+            this.lblMutableAttributesTotal.Size = new System.Drawing.Size(42, 20);
+            this.lblMutableAttributesTotal.TabIndex = 5;
+            this.lblMutableAttributesTotal.Text = "Total";
+            // 
+            // lblLifePoints
+            // 
+            this.lblLifePoints.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblLifePoints.AutoSize = true;
+            this.lblLifePoints.Location = new System.Drawing.Point(19, 32);
+            this.lblLifePoints.Name = "lblLifePoints";
+            this.lblLifePoints.Size = new System.Drawing.Size(139, 20);
+            this.lblLifePoints.TabIndex = 6;
+            this.lblLifePoints.Text = "Pontos de Vida (PV)";
+            // 
+            // lblManaPoints
+            // 
+            this.lblManaPoints.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblManaPoints.AutoSize = true;
+            this.lblManaPoints.Location = new System.Drawing.Point(14, 60);
+            this.lblManaPoints.Name = "lblManaPoints";
+            this.lblManaPoints.Size = new System.Drawing.Size(150, 20);
+            this.lblManaPoints.TabIndex = 7;
+            this.lblManaPoints.Text = "Pontos de Mana (PM)";
+            // 
+            // lblPhisicalDamage
+            // 
+            this.lblPhisicalDamage.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblPhisicalDamage.AutoSize = true;
+            this.lblPhisicalDamage.Location = new System.Drawing.Point(25, 88);
+            this.lblPhisicalDamage.Name = "lblPhisicalDamage";
+            this.lblPhisicalDamage.Size = new System.Drawing.Size(128, 20);
+            this.lblPhisicalDamage.TabIndex = 8;
+            this.lblPhisicalDamage.Text = "Dano Físico (DAF)";
+            // 
+            // lblMagicDamage
+            // 
+            this.lblMagicDamage.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblMagicDamage.AutoSize = true;
+            this.lblMagicDamage.Location = new System.Drawing.Point(15, 116);
+            this.lblMagicDamage.Name = "lblMagicDamage";
+            this.lblMagicDamage.Size = new System.Drawing.Size(147, 20);
+            this.lblMagicDamage.TabIndex = 9;
+            this.lblMagicDamage.Text = "Dano Mágico (DAM)";
+            // 
+            // lblPhisicalDefense
+            // 
+            this.lblPhisicalDefense.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblPhisicalDefense.AutoSize = true;
+            this.lblPhisicalDefense.Location = new System.Drawing.Point(21, 144);
+            this.lblPhisicalDefense.Name = "lblPhisicalDefense";
+            this.lblPhisicalDefense.Size = new System.Drawing.Size(135, 20);
+            this.lblPhisicalDefense.TabIndex = 10;
+            this.lblPhisicalDefense.Text = "Defesa Física (DEF)";
+            // 
+            // label7
+            // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(12, 172);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(154, 20);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "Defesa Mágica (DEM)";
+            // 
+            // lblDirectDamage
+            // 
+            this.lblDirectDamage.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblDirectDamage.AutoSize = true;
+            this.lblDirectDamage.Location = new System.Drawing.Point(25, 200);
+            this.lblDirectDamage.Name = "lblDirectDamage";
+            this.lblDirectDamage.Size = new System.Drawing.Size(127, 20);
+            this.lblDirectDamage.TabIndex = 12;
+            this.lblDirectDamage.Text = "Dano Direto (DD)";
+            // 
+            // lblDamageReduction
+            // 
+            this.lblDamageReduction.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblDamageReduction.AutoSize = true;
+            this.lblDamageReduction.Location = new System.Drawing.Point(8, 231);
+            this.lblDamageReduction.Name = "lblDamageReduction";
+            this.lblDamageReduction.Size = new System.Drawing.Size(162, 20);
+            this.lblDamageReduction.TabIndex = 13;
+            this.lblDamageReduction.Text = "Redução de Dano (RD)";
+            // 
             // MainScreen
             // 
             this.ClientSize = new System.Drawing.Size(1011, 518);
+            this.Controls.Add(this.tlpMutableAttributesValues);
+            this.Controls.Add(this.tlpMutableAttributesHeader);
             this.Controls.Add(this.tlpCharct);
             this.Controls.Add(this.LayoutCabecalho);
             this.Name = "MainScreen";
@@ -348,6 +580,10 @@ namespace SistemaLDA
             this.LayoutCabecalho.PerformLayout();
             this.tlpCharct.ResumeLayout(false);
             this.tlpCharct.PerformLayout();
+            this.tlpMutableAttributesHeader.ResumeLayout(false);
+            this.tlpMutableAttributesHeader.PerformLayout();
+            this.tlpMutableAttributesValues.ResumeLayout(false);
+            this.tlpMutableAttributesValues.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -377,5 +613,22 @@ namespace SistemaLDA
         private Label lblHeader;
         private Label label1;
         private TableLayoutPanel tableLayoutPanel2;
+        private Label lblMutableAttributesHeader;
+        private TableLayoutPanel tlpMutableAttributesHeader;
+        private TableLayoutPanel tlpMutableAttributesValues;
+        private Label lblMutableAttributesBase;
+        private Label lblMutableAttributesBreed;
+        private Label lblMutableAttributesClass;
+        private Label lblMutableAttributesEquip;
+        private Label lblMutableAttributesTotalLevel;
+        private Label lblMutableAttributesTotal;
+        private Label lblLifePoints;
+        private Label lblManaPoints;
+        private Label lblPhisicalDamage;
+        private Label lblMagicDamage;
+        private Label lblPhisicalDefense;
+        private Label label7;
+        private Label lblDirectDamage;
+        private Label lblDamageReduction;
     }
 }
