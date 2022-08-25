@@ -189,77 +189,77 @@ namespace SistemaLDA
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.label19 = new System.Windows.Forms.Label();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.label20 = new System.Windows.Forms.Label();
+            this.lblFixAttributesHeader = new System.Windows.Forms.Label();
             this.tlpFixAttributesHeader = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.textBox50 = new System.Windows.Forms.TextBox();
-            this.textBox51 = new System.Windows.Forms.TextBox();
-            this.textBox52 = new System.Windows.Forms.TextBox();
+            this.tlpFixAttributesValues = new System.Windows.Forms.TableLayoutPanel();
+            this.txtFixAttributesTotalTRAValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesTotalVELValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesEquipePCValue = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.textBox53 = new System.Windows.Forms.TextBox();
-            this.textBox54 = new System.Windows.Forms.TextBox();
-            this.textBox55 = new System.Windows.Forms.TextBox();
-            this.textBox56 = new System.Windows.Forms.TextBox();
-            this.textBox57 = new System.Windows.Forms.TextBox();
-            this.textBox58 = new System.Windows.Forms.TextBox();
-            this.textBox59 = new System.Windows.Forms.TextBox();
-            this.textBox60 = new System.Windows.Forms.TextBox();
-            this.textBox61 = new System.Windows.Forms.TextBox();
-            this.textBox62 = new System.Windows.Forms.TextBox();
-            this.textBox63 = new System.Windows.Forms.TextBox();
-            this.textBox64 = new System.Windows.Forms.TextBox();
-            this.textBox65 = new System.Windows.Forms.TextBox();
-            this.textBox66 = new System.Windows.Forms.TextBox();
-            this.textBox67 = new System.Windows.Forms.TextBox();
-            this.textBox68 = new System.Windows.Forms.TextBox();
-            this.textBox69 = new System.Windows.Forms.TextBox();
-            this.textBox70 = new System.Windows.Forms.TextBox();
-            this.textBox71 = new System.Windows.Forms.TextBox();
-            this.textBox72 = new System.Windows.Forms.TextBox();
-            this.textBox73 = new System.Windows.Forms.TextBox();
-            this.textBox74 = new System.Windows.Forms.TextBox();
-            this.textBox75 = new System.Windows.Forms.TextBox();
-            this.textBox76 = new System.Windows.Forms.TextBox();
-            this.textBox77 = new System.Windows.Forms.TextBox();
-            this.textBox78 = new System.Windows.Forms.TextBox();
-            this.textBox79 = new System.Windows.Forms.TextBox();
-            this.textBox80 = new System.Windows.Forms.TextBox();
-            this.textBox81 = new System.Windows.Forms.TextBox();
-            this.textBox82 = new System.Windows.Forms.TextBox();
-            this.textBox83 = new System.Windows.Forms.TextBox();
-            this.textBox84 = new System.Windows.Forms.TextBox();
-            this.textBox85 = new System.Windows.Forms.TextBox();
-            this.textBox86 = new System.Windows.Forms.TextBox();
-            this.textBox87 = new System.Windows.Forms.TextBox();
-            this.textBox88 = new System.Windows.Forms.TextBox();
-            this.textBox89 = new System.Windows.Forms.TextBox();
-            this.textBox90 = new System.Windows.Forms.TextBox();
-            this.textBox91 = new System.Windows.Forms.TextBox();
-            this.textBox92 = new System.Windows.Forms.TextBox();
-            this.textBox93 = new System.Windows.Forms.TextBox();
-            this.textBox94 = new System.Windows.Forms.TextBox();
-            this.textBox95 = new System.Windows.Forms.TextBox();
-            this.textBox96 = new System.Windows.Forms.TextBox();
-            this.textBox97 = new System.Windows.Forms.TextBox();
+            this.lblSpeedPoints = new System.Windows.Forms.Label();
+            this.lblPrecisionPoints = new System.Windows.Forms.Label();
+            this.lblEvasionPoints = new System.Windows.Forms.Label();
+            this.lblFocusPoints = new System.Windows.Forms.Label();
+            this.lblTrancePoints = new System.Windows.Forms.Label();
+            this.lblConcentrationPoints = new System.Windows.Forms.Label();
+            this.lblVigorPoints = new System.Windows.Forms.Label();
+            this.lblSConcentrationsPoints = new System.Windows.Forms.Label();
+            this.txtFixAttributesBaseVELValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesBasePREValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesBaseEVAValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesBaseFOCValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesBaseTRAValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesBaseCOMValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesBaseVIGValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesBreedVELValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesBreedPREValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesBreedEVAValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesBasePCValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesBreedFOCValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesBreedTRAValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesBreedCOMValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesBreedVIGValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesBreedPCValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesClassVELValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesClassPREValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesClassEVAValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesClassFOCValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesClassTRAValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesClassCOMValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesClassVIGValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesClassPCValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesEquipeVELValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesEquipePREValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesEquipeEVAValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesEquipeFOCValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesEquipeTRAValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesEquipeCOMValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesEquipeVIGValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesTotalLevelVELValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesTotalLevelPREValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesTotalLevelEVAValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesTotalLevelFOCValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesTotalLevelTRAValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesTotalLevelCOMValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesTotalLevelVIGValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesTotalLevelPCValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesTotalPREValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesTotalEVAValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesTotalFOCValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesTotalCOMValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesTotalVIGValue = new System.Windows.Forms.TextBox();
+            this.txtFixAttributesTotalPCValue = new System.Windows.Forms.TextBox();
             this.LayoutHeader.SuspendLayout();
             this.tlpCharct.SuspendLayout();
             this.tlpMutableAttributesHeader.SuspendLayout();
             this.tlpMutableAttributesValues.SuspendLayout();
             this.tlpFixAttributesHeader.SuspendLayout();
-            this.tableLayoutPanel5.SuspendLayout();
+            this.tlpFixAttributesValues.SuspendLayout();
             this.SuspendLayout();
             // 
             // LayoutHeader
@@ -575,13 +575,13 @@ namespace SistemaLDA
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tlpMutableAttributesValues.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tlpMutableAttributesValues.ColumnCount = 7;
-            this.tlpMutableAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.98259F));
-            this.tlpMutableAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.88032F));
-            this.tlpMutableAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.86613F));
-            this.tlpMutableAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.31059F));
-            this.tlpMutableAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.31059F));
-            this.tlpMutableAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.31059F));
-            this.tlpMutableAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.31059F));
+            this.tlpMutableAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tlpMutableAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.46701F));
+            this.tlpMutableAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15.22843F));
+            this.tlpMutableAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.03553F));
+            this.tlpMutableAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18.40102F));
+            this.tlpMutableAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18.91892F));
+            this.tlpMutableAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
             this.tlpMutableAttributesValues.Controls.Add(this.txtMutableAttributesTotalDEFValue, 6, 5);
             this.tlpMutableAttributesValues.Controls.Add(this.txtMutableAttributesTotalPVValue, 6, 1);
             this.tlpMutableAttributesValues.Controls.Add(this.txtMutableAttributesEquipeRDValue, 4, 8);
@@ -664,9 +664,9 @@ namespace SistemaLDA
             this.txtMutableAttributesTotalDEFValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesTotalDEFValue.Location = new System.Drawing.Point(848, 169);
+            this.txtMutableAttributesTotalDEFValue.Location = new System.Drawing.Point(878, 169);
             this.txtMutableAttributesTotalDEFValue.Name = "txtMutableAttributesTotalDEFValue";
-            this.txtMutableAttributesTotalDEFValue.Size = new System.Drawing.Size(135, 27);
+            this.txtMutableAttributesTotalDEFValue.Size = new System.Drawing.Size(105, 27);
             this.txtMutableAttributesTotalDEFValue.TabIndex = 23;
             // 
             // txtMutableAttributesTotalPVValue
@@ -674,9 +674,9 @@ namespace SistemaLDA
             this.txtMutableAttributesTotalPVValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesTotalPVValue.Location = new System.Drawing.Point(848, 37);
+            this.txtMutableAttributesTotalPVValue.Location = new System.Drawing.Point(878, 37);
             this.txtMutableAttributesTotalPVValue.Name = "txtMutableAttributesTotalPVValue";
-            this.txtMutableAttributesTotalPVValue.Size = new System.Drawing.Size(135, 27);
+            this.txtMutableAttributesTotalPVValue.Size = new System.Drawing.Size(105, 27);
             this.txtMutableAttributesTotalPVValue.TabIndex = 23;
             // 
             // txtMutableAttributesEquipeRDValue
@@ -684,16 +684,16 @@ namespace SistemaLDA
             this.txtMutableAttributesEquipeRDValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesEquipeRDValue.Location = new System.Drawing.Point(566, 268);
+            this.txtMutableAttributesEquipeRDValue.Location = new System.Drawing.Point(590, 268);
             this.txtMutableAttributesEquipeRDValue.Name = "txtMutableAttributesEquipeRDValue";
-            this.txtMutableAttributesEquipeRDValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesEquipeRDValue.Size = new System.Drawing.Size(135, 27);
             this.txtMutableAttributesEquipeRDValue.TabIndex = 45;
             // 
             // lblMutableAttributesBase
             // 
             this.lblMutableAttributesBase.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblMutableAttributesBase.AutoSize = true;
-            this.lblMutableAttributesBase.Location = new System.Drawing.Point(221, 7);
+            this.lblMutableAttributesBase.Location = new System.Drawing.Point(245, 7);
             this.lblMutableAttributesBase.Name = "lblMutableAttributesBase";
             this.lblMutableAttributesBase.Size = new System.Drawing.Size(40, 20);
             this.lblMutableAttributesBase.TabIndex = 0;
@@ -703,7 +703,7 @@ namespace SistemaLDA
             // 
             this.lblMutableAttributesBreed.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblMutableAttributesBreed.AutoSize = true;
-            this.lblMutableAttributesBreed.Location = new System.Drawing.Point(342, 7);
+            this.lblMutableAttributesBreed.Location = new System.Drawing.Point(360, 7);
             this.lblMutableAttributesBreed.Name = "lblMutableAttributesBreed";
             this.lblMutableAttributesBreed.Size = new System.Drawing.Size(41, 20);
             this.lblMutableAttributesBreed.TabIndex = 1;
@@ -713,7 +713,7 @@ namespace SistemaLDA
             // 
             this.lblMutableAttributesClass.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblMutableAttributesClass.AutoSize = true;
-            this.lblMutableAttributesClass.Location = new System.Drawing.Point(467, 7);
+            this.lblMutableAttributesClass.Location = new System.Drawing.Point(488, 7);
             this.lblMutableAttributesClass.Name = "lblMutableAttributesClass";
             this.lblMutableAttributesClass.Size = new System.Drawing.Size(50, 20);
             this.lblMutableAttributesClass.TabIndex = 2;
@@ -723,7 +723,7 @@ namespace SistemaLDA
             // 
             this.lblMutableAttributesEquip.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblMutableAttributesEquip.AutoSize = true;
-            this.lblMutableAttributesEquip.Location = new System.Drawing.Point(605, 7);
+            this.lblMutableAttributesEquip.Location = new System.Drawing.Point(630, 7);
             this.lblMutableAttributesEquip.Name = "lblMutableAttributesEquip";
             this.lblMutableAttributesEquip.Size = new System.Drawing.Size(55, 20);
             this.lblMutableAttributesEquip.TabIndex = 3;
@@ -733,7 +733,7 @@ namespace SistemaLDA
             // 
             this.lblMutableAttributesTotalLevel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblMutableAttributesTotalLevel.AutoSize = true;
-            this.lblMutableAttributesTotalLevel.Location = new System.Drawing.Point(720, 7);
+            this.lblMutableAttributesTotalLevel.Location = new System.Drawing.Point(748, 7);
             this.lblMutableAttributesTotalLevel.Name = "lblMutableAttributesTotalLevel";
             this.lblMutableAttributesTotalLevel.Size = new System.Drawing.Size(107, 20);
             this.lblMutableAttributesTotalLevel.TabIndex = 4;
@@ -743,7 +743,7 @@ namespace SistemaLDA
             // 
             this.lblMutableAttributesTotal.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblMutableAttributesTotal.AutoSize = true;
-            this.lblMutableAttributesTotal.Location = new System.Drawing.Point(894, 7);
+            this.lblMutableAttributesTotal.Location = new System.Drawing.Point(909, 7);
             this.lblMutableAttributesTotal.Name = "lblMutableAttributesTotal";
             this.lblMutableAttributesTotal.Size = new System.Drawing.Size(42, 20);
             this.lblMutableAttributesTotal.TabIndex = 5;
@@ -751,9 +751,9 @@ namespace SistemaLDA
             // 
             // lblLifePoints
             // 
-            this.lblLifePoints.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblLifePoints.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblLifePoints.AutoSize = true;
-            this.lblLifePoints.Location = new System.Drawing.Point(19, 40);
+            this.lblLifePoints.Location = new System.Drawing.Point(4, 40);
             this.lblLifePoints.Name = "lblLifePoints";
             this.lblLifePoints.Size = new System.Drawing.Size(139, 20);
             this.lblLifePoints.TabIndex = 6;
@@ -761,9 +761,9 @@ namespace SistemaLDA
             // 
             // lblManaPoints
             // 
-            this.lblManaPoints.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblManaPoints.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblManaPoints.AutoSize = true;
-            this.lblManaPoints.Location = new System.Drawing.Point(14, 73);
+            this.lblManaPoints.Location = new System.Drawing.Point(4, 73);
             this.lblManaPoints.Name = "lblManaPoints";
             this.lblManaPoints.Size = new System.Drawing.Size(150, 20);
             this.lblManaPoints.TabIndex = 7;
@@ -771,9 +771,9 @@ namespace SistemaLDA
             // 
             // lblPhisicalDamage
             // 
-            this.lblPhisicalDamage.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblPhisicalDamage.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblPhisicalDamage.AutoSize = true;
-            this.lblPhisicalDamage.Location = new System.Drawing.Point(25, 106);
+            this.lblPhisicalDamage.Location = new System.Drawing.Point(4, 106);
             this.lblPhisicalDamage.Name = "lblPhisicalDamage";
             this.lblPhisicalDamage.Size = new System.Drawing.Size(128, 20);
             this.lblPhisicalDamage.TabIndex = 8;
@@ -781,9 +781,9 @@ namespace SistemaLDA
             // 
             // lblMagicDamage
             // 
-            this.lblMagicDamage.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblMagicDamage.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblMagicDamage.AutoSize = true;
-            this.lblMagicDamage.Location = new System.Drawing.Point(15, 139);
+            this.lblMagicDamage.Location = new System.Drawing.Point(4, 139);
             this.lblMagicDamage.Name = "lblMagicDamage";
             this.lblMagicDamage.Size = new System.Drawing.Size(147, 20);
             this.lblMagicDamage.TabIndex = 9;
@@ -791,9 +791,9 @@ namespace SistemaLDA
             // 
             // lblPhisicalDefense
             // 
-            this.lblPhisicalDefense.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblPhisicalDefense.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblPhisicalDefense.AutoSize = true;
-            this.lblPhisicalDefense.Location = new System.Drawing.Point(21, 172);
+            this.lblPhisicalDefense.Location = new System.Drawing.Point(4, 172);
             this.lblPhisicalDefense.Name = "lblPhisicalDefense";
             this.lblPhisicalDefense.Size = new System.Drawing.Size(135, 20);
             this.lblPhisicalDefense.TabIndex = 10;
@@ -801,9 +801,9 @@ namespace SistemaLDA
             // 
             // label7
             // 
-            this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 205);
+            this.label7.Location = new System.Drawing.Point(4, 205);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(154, 20);
             this.label7.TabIndex = 11;
@@ -811,9 +811,9 @@ namespace SistemaLDA
             // 
             // lblDirectDamage
             // 
-            this.lblDirectDamage.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblDirectDamage.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblDirectDamage.AutoSize = true;
-            this.lblDirectDamage.Location = new System.Drawing.Point(25, 238);
+            this.lblDirectDamage.Location = new System.Drawing.Point(4, 238);
             this.lblDirectDamage.Name = "lblDirectDamage";
             this.lblDirectDamage.Size = new System.Drawing.Size(127, 20);
             this.lblDirectDamage.TabIndex = 12;
@@ -821,22 +821,22 @@ namespace SistemaLDA
             // 
             // lblDamageReduction
             // 
-            this.lblDamageReduction.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblDamageReduction.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblDamageReduction.AutoSize = true;
-            this.lblDamageReduction.Location = new System.Drawing.Point(8, 273);
+            this.lblDamageReduction.Location = new System.Drawing.Point(4, 273);
             this.lblDamageReduction.Name = "lblDamageReduction";
-            this.lblDamageReduction.Size = new System.Drawing.Size(162, 20);
+            this.lblDamageReduction.Size = new System.Drawing.Size(202, 20);
             this.lblDamageReduction.TabIndex = 13;
-            this.lblDamageReduction.Text = "Redução de Dano (RD)";
+            this.lblDamageReduction.Text = "Redução de Dano (RD)          ";
             // 
             // txtMutableAttributesBasePVValue
             // 
             this.txtMutableAttributesBasePVValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesBasePVValue.Location = new System.Drawing.Point(181, 37);
+            this.txtMutableAttributesBasePVValue.Location = new System.Drawing.Point(213, 37);
             this.txtMutableAttributesBasePVValue.Name = "txtMutableAttributesBasePVValue";
-            this.txtMutableAttributesBasePVValue.Size = new System.Drawing.Size(120, 27);
+            this.txtMutableAttributesBasePVValue.Size = new System.Drawing.Size(105, 27);
             this.txtMutableAttributesBasePVValue.TabIndex = 14;
             // 
             // txtMutableAttributesBasePMValue
@@ -844,9 +844,9 @@ namespace SistemaLDA
             this.txtMutableAttributesBasePMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesBasePMValue.Location = new System.Drawing.Point(181, 70);
+            this.txtMutableAttributesBasePMValue.Location = new System.Drawing.Point(213, 70);
             this.txtMutableAttributesBasePMValue.Name = "txtMutableAttributesBasePMValue";
-            this.txtMutableAttributesBasePMValue.Size = new System.Drawing.Size(120, 27);
+            this.txtMutableAttributesBasePMValue.Size = new System.Drawing.Size(105, 27);
             this.txtMutableAttributesBasePMValue.TabIndex = 15;
             // 
             // txtMutableAttributesBaseDAFValue
@@ -854,9 +854,9 @@ namespace SistemaLDA
             this.txtMutableAttributesBaseDAFValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesBaseDAFValue.Location = new System.Drawing.Point(181, 103);
+            this.txtMutableAttributesBaseDAFValue.Location = new System.Drawing.Point(213, 103);
             this.txtMutableAttributesBaseDAFValue.Name = "txtMutableAttributesBaseDAFValue";
-            this.txtMutableAttributesBaseDAFValue.Size = new System.Drawing.Size(120, 27);
+            this.txtMutableAttributesBaseDAFValue.Size = new System.Drawing.Size(105, 27);
             this.txtMutableAttributesBaseDAFValue.TabIndex = 16;
             // 
             // txtMutableAttributesBaseDAMValue
@@ -864,9 +864,9 @@ namespace SistemaLDA
             this.txtMutableAttributesBaseDAMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesBaseDAMValue.Location = new System.Drawing.Point(181, 136);
+            this.txtMutableAttributesBaseDAMValue.Location = new System.Drawing.Point(213, 136);
             this.txtMutableAttributesBaseDAMValue.Name = "txtMutableAttributesBaseDAMValue";
-            this.txtMutableAttributesBaseDAMValue.Size = new System.Drawing.Size(120, 27);
+            this.txtMutableAttributesBaseDAMValue.Size = new System.Drawing.Size(105, 27);
             this.txtMutableAttributesBaseDAMValue.TabIndex = 17;
             // 
             // txtMutableAttributesBaseDEFValue
@@ -874,9 +874,9 @@ namespace SistemaLDA
             this.txtMutableAttributesBaseDEFValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesBaseDEFValue.Location = new System.Drawing.Point(181, 169);
+            this.txtMutableAttributesBaseDEFValue.Location = new System.Drawing.Point(213, 169);
             this.txtMutableAttributesBaseDEFValue.Name = "txtMutableAttributesBaseDEFValue";
-            this.txtMutableAttributesBaseDEFValue.Size = new System.Drawing.Size(120, 27);
+            this.txtMutableAttributesBaseDEFValue.Size = new System.Drawing.Size(105, 27);
             this.txtMutableAttributesBaseDEFValue.TabIndex = 18;
             // 
             // txtMutableAttributesBaseDEMValue
@@ -884,9 +884,9 @@ namespace SistemaLDA
             this.txtMutableAttributesBaseDEMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesBaseDEMValue.Location = new System.Drawing.Point(181, 202);
+            this.txtMutableAttributesBaseDEMValue.Location = new System.Drawing.Point(213, 202);
             this.txtMutableAttributesBaseDEMValue.Name = "txtMutableAttributesBaseDEMValue";
-            this.txtMutableAttributesBaseDEMValue.Size = new System.Drawing.Size(120, 27);
+            this.txtMutableAttributesBaseDEMValue.Size = new System.Drawing.Size(105, 27);
             this.txtMutableAttributesBaseDEMValue.TabIndex = 19;
             // 
             // txtMutableAttributesBaseDDValue
@@ -894,9 +894,9 @@ namespace SistemaLDA
             this.txtMutableAttributesBaseDDValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesBaseDDValue.Location = new System.Drawing.Point(181, 235);
+            this.txtMutableAttributesBaseDDValue.Location = new System.Drawing.Point(213, 235);
             this.txtMutableAttributesBaseDDValue.Name = "txtMutableAttributesBaseDDValue";
-            this.txtMutableAttributesBaseDDValue.Size = new System.Drawing.Size(120, 27);
+            this.txtMutableAttributesBaseDDValue.Size = new System.Drawing.Size(105, 27);
             this.txtMutableAttributesBaseDDValue.TabIndex = 20;
             // 
             // txtMutableAttributesBreedPVValue
@@ -904,9 +904,9 @@ namespace SistemaLDA
             this.txtMutableAttributesBreedPVValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesBreedPVValue.Location = new System.Drawing.Point(308, 37);
+            this.txtMutableAttributesBreedPVValue.Location = new System.Drawing.Point(325, 37);
             this.txtMutableAttributesBreedPVValue.Name = "txtMutableAttributesBreedPVValue";
-            this.txtMutableAttributesBreedPVValue.Size = new System.Drawing.Size(110, 27);
+            this.txtMutableAttributesBreedPVValue.Size = new System.Drawing.Size(111, 27);
             this.txtMutableAttributesBreedPVValue.TabIndex = 22;
             // 
             // txtMutableAttributesBreedPMValue
@@ -914,9 +914,9 @@ namespace SistemaLDA
             this.txtMutableAttributesBreedPMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesBreedPMValue.Location = new System.Drawing.Point(308, 70);
+            this.txtMutableAttributesBreedPMValue.Location = new System.Drawing.Point(325, 70);
             this.txtMutableAttributesBreedPMValue.Name = "txtMutableAttributesBreedPMValue";
-            this.txtMutableAttributesBreedPMValue.Size = new System.Drawing.Size(110, 27);
+            this.txtMutableAttributesBreedPMValue.Size = new System.Drawing.Size(111, 27);
             this.txtMutableAttributesBreedPMValue.TabIndex = 23;
             // 
             // txtMutableAttributesBreedDAFValue
@@ -924,9 +924,9 @@ namespace SistemaLDA
             this.txtMutableAttributesBreedDAFValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesBreedDAFValue.Location = new System.Drawing.Point(308, 103);
+            this.txtMutableAttributesBreedDAFValue.Location = new System.Drawing.Point(325, 103);
             this.txtMutableAttributesBreedDAFValue.Name = "txtMutableAttributesBreedDAFValue";
-            this.txtMutableAttributesBreedDAFValue.Size = new System.Drawing.Size(110, 27);
+            this.txtMutableAttributesBreedDAFValue.Size = new System.Drawing.Size(111, 27);
             this.txtMutableAttributesBreedDAFValue.TabIndex = 24;
             // 
             // textBox4
@@ -934,9 +934,9 @@ namespace SistemaLDA
             this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox4.Location = new System.Drawing.Point(181, 268);
+            this.textBox4.Location = new System.Drawing.Point(213, 268);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(120, 27);
+            this.textBox4.Size = new System.Drawing.Size(105, 27);
             this.textBox4.TabIndex = 25;
             // 
             // txtMutableAttributesBreedDAMValue
@@ -944,9 +944,9 @@ namespace SistemaLDA
             this.txtMutableAttributesBreedDAMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesBreedDAMValue.Location = new System.Drawing.Point(308, 136);
+            this.txtMutableAttributesBreedDAMValue.Location = new System.Drawing.Point(325, 136);
             this.txtMutableAttributesBreedDAMValue.Name = "txtMutableAttributesBreedDAMValue";
-            this.txtMutableAttributesBreedDAMValue.Size = new System.Drawing.Size(110, 27);
+            this.txtMutableAttributesBreedDAMValue.Size = new System.Drawing.Size(111, 27);
             this.txtMutableAttributesBreedDAMValue.TabIndex = 21;
             // 
             // txtMutableAttributesBreedDEFValue
@@ -954,9 +954,9 @@ namespace SistemaLDA
             this.txtMutableAttributesBreedDEFValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesBreedDEFValue.Location = new System.Drawing.Point(308, 169);
+            this.txtMutableAttributesBreedDEFValue.Location = new System.Drawing.Point(325, 169);
             this.txtMutableAttributesBreedDEFValue.Name = "txtMutableAttributesBreedDEFValue";
-            this.txtMutableAttributesBreedDEFValue.Size = new System.Drawing.Size(110, 27);
+            this.txtMutableAttributesBreedDEFValue.Size = new System.Drawing.Size(111, 27);
             this.txtMutableAttributesBreedDEFValue.TabIndex = 26;
             // 
             // txtMutableAttributesBreedDEMValue
@@ -964,9 +964,9 @@ namespace SistemaLDA
             this.txtMutableAttributesBreedDEMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesBreedDEMValue.Location = new System.Drawing.Point(308, 202);
+            this.txtMutableAttributesBreedDEMValue.Location = new System.Drawing.Point(325, 202);
             this.txtMutableAttributesBreedDEMValue.Name = "txtMutableAttributesBreedDEMValue";
-            this.txtMutableAttributesBreedDEMValue.Size = new System.Drawing.Size(110, 27);
+            this.txtMutableAttributesBreedDEMValue.Size = new System.Drawing.Size(111, 27);
             this.txtMutableAttributesBreedDEMValue.TabIndex = 27;
             // 
             // txtMutableAttributesBreedDDValue
@@ -974,9 +974,9 @@ namespace SistemaLDA
             this.txtMutableAttributesBreedDDValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesBreedDDValue.Location = new System.Drawing.Point(308, 235);
+            this.txtMutableAttributesBreedDDValue.Location = new System.Drawing.Point(325, 235);
             this.txtMutableAttributesBreedDDValue.Name = "txtMutableAttributesBreedDDValue";
-            this.txtMutableAttributesBreedDDValue.Size = new System.Drawing.Size(110, 27);
+            this.txtMutableAttributesBreedDDValue.Size = new System.Drawing.Size(111, 27);
             this.txtMutableAttributesBreedDDValue.TabIndex = 28;
             // 
             // txtMutableAttributesBreedRDValue
@@ -984,9 +984,9 @@ namespace SistemaLDA
             this.txtMutableAttributesBreedRDValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesBreedRDValue.Location = new System.Drawing.Point(308, 268);
+            this.txtMutableAttributesBreedRDValue.Location = new System.Drawing.Point(325, 268);
             this.txtMutableAttributesBreedRDValue.Name = "txtMutableAttributesBreedRDValue";
-            this.txtMutableAttributesBreedRDValue.Size = new System.Drawing.Size(110, 27);
+            this.txtMutableAttributesBreedRDValue.Size = new System.Drawing.Size(111, 27);
             this.txtMutableAttributesBreedRDValue.TabIndex = 29;
             // 
             // txtMutableAttributesClassPVValue
@@ -994,9 +994,9 @@ namespace SistemaLDA
             this.txtMutableAttributesClassPVValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesClassPVValue.Location = new System.Drawing.Point(425, 37);
+            this.txtMutableAttributesClassPVValue.Location = new System.Drawing.Point(443, 37);
             this.txtMutableAttributesClassPVValue.Name = "txtMutableAttributesClassPVValue";
-            this.txtMutableAttributesClassPVValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesClassPVValue.Size = new System.Drawing.Size(140, 27);
             this.txtMutableAttributesClassPVValue.TabIndex = 30;
             // 
             // txtMutableAttributesClassPMValue
@@ -1004,9 +1004,9 @@ namespace SistemaLDA
             this.txtMutableAttributesClassPMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesClassPMValue.Location = new System.Drawing.Point(425, 70);
+            this.txtMutableAttributesClassPMValue.Location = new System.Drawing.Point(443, 70);
             this.txtMutableAttributesClassPMValue.Name = "txtMutableAttributesClassPMValue";
-            this.txtMutableAttributesClassPMValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesClassPMValue.Size = new System.Drawing.Size(140, 27);
             this.txtMutableAttributesClassPMValue.TabIndex = 31;
             // 
             // txtMutableAttributesClassDAFValue
@@ -1014,9 +1014,9 @@ namespace SistemaLDA
             this.txtMutableAttributesClassDAFValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesClassDAFValue.Location = new System.Drawing.Point(425, 103);
+            this.txtMutableAttributesClassDAFValue.Location = new System.Drawing.Point(443, 103);
             this.txtMutableAttributesClassDAFValue.Name = "txtMutableAttributesClassDAFValue";
-            this.txtMutableAttributesClassDAFValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesClassDAFValue.Size = new System.Drawing.Size(140, 27);
             this.txtMutableAttributesClassDAFValue.TabIndex = 32;
             // 
             // txtMutableAttributesClassDAMValue
@@ -1024,9 +1024,9 @@ namespace SistemaLDA
             this.txtMutableAttributesClassDAMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesClassDAMValue.Location = new System.Drawing.Point(425, 136);
+            this.txtMutableAttributesClassDAMValue.Location = new System.Drawing.Point(443, 136);
             this.txtMutableAttributesClassDAMValue.Name = "txtMutableAttributesClassDAMValue";
-            this.txtMutableAttributesClassDAMValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesClassDAMValue.Size = new System.Drawing.Size(140, 27);
             this.txtMutableAttributesClassDAMValue.TabIndex = 33;
             // 
             // txtMutableAttributesClassDEFValue
@@ -1034,9 +1034,9 @@ namespace SistemaLDA
             this.txtMutableAttributesClassDEFValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesClassDEFValue.Location = new System.Drawing.Point(425, 169);
+            this.txtMutableAttributesClassDEFValue.Location = new System.Drawing.Point(443, 169);
             this.txtMutableAttributesClassDEFValue.Name = "txtMutableAttributesClassDEFValue";
-            this.txtMutableAttributesClassDEFValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesClassDEFValue.Size = new System.Drawing.Size(140, 27);
             this.txtMutableAttributesClassDEFValue.TabIndex = 34;
             // 
             // txtMutableAttributesClassDEMValue
@@ -1044,9 +1044,9 @@ namespace SistemaLDA
             this.txtMutableAttributesClassDEMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesClassDEMValue.Location = new System.Drawing.Point(425, 202);
+            this.txtMutableAttributesClassDEMValue.Location = new System.Drawing.Point(443, 202);
             this.txtMutableAttributesClassDEMValue.Name = "txtMutableAttributesClassDEMValue";
-            this.txtMutableAttributesClassDEMValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesClassDEMValue.Size = new System.Drawing.Size(140, 27);
             this.txtMutableAttributesClassDEMValue.TabIndex = 35;
             // 
             // txtMutableAttributesClassDDValue
@@ -1054,9 +1054,9 @@ namespace SistemaLDA
             this.txtMutableAttributesClassDDValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesClassDDValue.Location = new System.Drawing.Point(425, 235);
+            this.txtMutableAttributesClassDDValue.Location = new System.Drawing.Point(443, 235);
             this.txtMutableAttributesClassDDValue.Name = "txtMutableAttributesClassDDValue";
-            this.txtMutableAttributesClassDDValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesClassDDValue.Size = new System.Drawing.Size(140, 27);
             this.txtMutableAttributesClassDDValue.TabIndex = 36;
             // 
             // txtMutableAttributesClassRDValue
@@ -1064,9 +1064,9 @@ namespace SistemaLDA
             this.txtMutableAttributesClassRDValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesClassRDValue.Location = new System.Drawing.Point(425, 268);
+            this.txtMutableAttributesClassRDValue.Location = new System.Drawing.Point(443, 268);
             this.txtMutableAttributesClassRDValue.Name = "txtMutableAttributesClassRDValue";
-            this.txtMutableAttributesClassRDValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesClassRDValue.Size = new System.Drawing.Size(140, 27);
             this.txtMutableAttributesClassRDValue.TabIndex = 37;
             // 
             // txtMutableAttributesEquipePVValue
@@ -1074,9 +1074,9 @@ namespace SistemaLDA
             this.txtMutableAttributesEquipePVValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesEquipePVValue.Location = new System.Drawing.Point(566, 37);
+            this.txtMutableAttributesEquipePVValue.Location = new System.Drawing.Point(590, 37);
             this.txtMutableAttributesEquipePVValue.Name = "txtMutableAttributesEquipePVValue";
-            this.txtMutableAttributesEquipePVValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesEquipePVValue.Size = new System.Drawing.Size(135, 27);
             this.txtMutableAttributesEquipePVValue.TabIndex = 38;
             // 
             // txtMutableAttributesEquipePMValue
@@ -1084,9 +1084,9 @@ namespace SistemaLDA
             this.txtMutableAttributesEquipePMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesEquipePMValue.Location = new System.Drawing.Point(566, 70);
+            this.txtMutableAttributesEquipePMValue.Location = new System.Drawing.Point(590, 70);
             this.txtMutableAttributesEquipePMValue.Name = "txtMutableAttributesEquipePMValue";
-            this.txtMutableAttributesEquipePMValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesEquipePMValue.Size = new System.Drawing.Size(135, 27);
             this.txtMutableAttributesEquipePMValue.TabIndex = 39;
             // 
             // txtMutableAttributesEquipeDAFValue
@@ -1094,9 +1094,9 @@ namespace SistemaLDA
             this.txtMutableAttributesEquipeDAFValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesEquipeDAFValue.Location = new System.Drawing.Point(566, 103);
+            this.txtMutableAttributesEquipeDAFValue.Location = new System.Drawing.Point(590, 103);
             this.txtMutableAttributesEquipeDAFValue.Name = "txtMutableAttributesEquipeDAFValue";
-            this.txtMutableAttributesEquipeDAFValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesEquipeDAFValue.Size = new System.Drawing.Size(135, 27);
             this.txtMutableAttributesEquipeDAFValue.TabIndex = 40;
             // 
             // txtMutableAttributesEquipeDAMValue
@@ -1104,9 +1104,9 @@ namespace SistemaLDA
             this.txtMutableAttributesEquipeDAMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesEquipeDAMValue.Location = new System.Drawing.Point(566, 136);
+            this.txtMutableAttributesEquipeDAMValue.Location = new System.Drawing.Point(590, 136);
             this.txtMutableAttributesEquipeDAMValue.Name = "txtMutableAttributesEquipeDAMValue";
-            this.txtMutableAttributesEquipeDAMValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesEquipeDAMValue.Size = new System.Drawing.Size(135, 27);
             this.txtMutableAttributesEquipeDAMValue.TabIndex = 41;
             // 
             // txtMutableAttributesEquipeDEFValue
@@ -1114,9 +1114,9 @@ namespace SistemaLDA
             this.txtMutableAttributesEquipeDEFValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesEquipeDEFValue.Location = new System.Drawing.Point(566, 169);
+            this.txtMutableAttributesEquipeDEFValue.Location = new System.Drawing.Point(590, 169);
             this.txtMutableAttributesEquipeDEFValue.Name = "txtMutableAttributesEquipeDEFValue";
-            this.txtMutableAttributesEquipeDEFValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesEquipeDEFValue.Size = new System.Drawing.Size(135, 27);
             this.txtMutableAttributesEquipeDEFValue.TabIndex = 42;
             // 
             // txtMutableAttributesEquipeDEMValue
@@ -1124,9 +1124,9 @@ namespace SistemaLDA
             this.txtMutableAttributesEquipeDEMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesEquipeDEMValue.Location = new System.Drawing.Point(566, 202);
+            this.txtMutableAttributesEquipeDEMValue.Location = new System.Drawing.Point(590, 202);
             this.txtMutableAttributesEquipeDEMValue.Name = "txtMutableAttributesEquipeDEMValue";
-            this.txtMutableAttributesEquipeDEMValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesEquipeDEMValue.Size = new System.Drawing.Size(135, 27);
             this.txtMutableAttributesEquipeDEMValue.TabIndex = 43;
             // 
             // txtMutableAttributesEquipeDDValue
@@ -1134,9 +1134,9 @@ namespace SistemaLDA
             this.txtMutableAttributesEquipeDDValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesEquipeDDValue.Location = new System.Drawing.Point(566, 235);
+            this.txtMutableAttributesEquipeDDValue.Location = new System.Drawing.Point(590, 235);
             this.txtMutableAttributesEquipeDDValue.Name = "txtMutableAttributesEquipeDDValue";
-            this.txtMutableAttributesEquipeDDValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesEquipeDDValue.Size = new System.Drawing.Size(135, 27);
             this.txtMutableAttributesEquipeDDValue.TabIndex = 44;
             // 
             // txtMutableAttributesTotalLevelPVValue
@@ -1144,9 +1144,9 @@ namespace SistemaLDA
             this.txtMutableAttributesTotalLevelPVValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesTotalLevelPVValue.Location = new System.Drawing.Point(707, 37);
+            this.txtMutableAttributesTotalLevelPVValue.Location = new System.Drawing.Point(732, 37);
             this.txtMutableAttributesTotalLevelPVValue.Name = "txtMutableAttributesTotalLevelPVValue";
-            this.txtMutableAttributesTotalLevelPVValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesTotalLevelPVValue.Size = new System.Drawing.Size(139, 27);
             this.txtMutableAttributesTotalLevelPVValue.TabIndex = 46;
             // 
             // txtMutableAttributesTotalLevelPMValue
@@ -1154,9 +1154,9 @@ namespace SistemaLDA
             this.txtMutableAttributesTotalLevelPMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesTotalLevelPMValue.Location = new System.Drawing.Point(707, 70);
+            this.txtMutableAttributesTotalLevelPMValue.Location = new System.Drawing.Point(732, 70);
             this.txtMutableAttributesTotalLevelPMValue.Name = "txtMutableAttributesTotalLevelPMValue";
-            this.txtMutableAttributesTotalLevelPMValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesTotalLevelPMValue.Size = new System.Drawing.Size(139, 27);
             this.txtMutableAttributesTotalLevelPMValue.TabIndex = 47;
             // 
             // txtMutableAttributesTotalLevelDAFValue
@@ -1164,9 +1164,9 @@ namespace SistemaLDA
             this.txtMutableAttributesTotalLevelDAFValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesTotalLevelDAFValue.Location = new System.Drawing.Point(707, 103);
+            this.txtMutableAttributesTotalLevelDAFValue.Location = new System.Drawing.Point(732, 103);
             this.txtMutableAttributesTotalLevelDAFValue.Name = "txtMutableAttributesTotalLevelDAFValue";
-            this.txtMutableAttributesTotalLevelDAFValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesTotalLevelDAFValue.Size = new System.Drawing.Size(139, 27);
             this.txtMutableAttributesTotalLevelDAFValue.TabIndex = 48;
             // 
             // txtMutableAttributesTotalLevelDAMValue
@@ -1174,9 +1174,9 @@ namespace SistemaLDA
             this.txtMutableAttributesTotalLevelDAMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesTotalLevelDAMValue.Location = new System.Drawing.Point(707, 136);
+            this.txtMutableAttributesTotalLevelDAMValue.Location = new System.Drawing.Point(732, 136);
             this.txtMutableAttributesTotalLevelDAMValue.Name = "txtMutableAttributesTotalLevelDAMValue";
-            this.txtMutableAttributesTotalLevelDAMValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesTotalLevelDAMValue.Size = new System.Drawing.Size(139, 27);
             this.txtMutableAttributesTotalLevelDAMValue.TabIndex = 49;
             // 
             // txtMutableAttributesTotalLevelDEFValue
@@ -1184,9 +1184,9 @@ namespace SistemaLDA
             this.txtMutableAttributesTotalLevelDEFValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesTotalLevelDEFValue.Location = new System.Drawing.Point(707, 169);
+            this.txtMutableAttributesTotalLevelDEFValue.Location = new System.Drawing.Point(732, 169);
             this.txtMutableAttributesTotalLevelDEFValue.Name = "txtMutableAttributesTotalLevelDEFValue";
-            this.txtMutableAttributesTotalLevelDEFValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesTotalLevelDEFValue.Size = new System.Drawing.Size(139, 27);
             this.txtMutableAttributesTotalLevelDEFValue.TabIndex = 50;
             // 
             // txtMutableAttributesTotalLevelDEMValue
@@ -1194,9 +1194,9 @@ namespace SistemaLDA
             this.txtMutableAttributesTotalLevelDEMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesTotalLevelDEMValue.Location = new System.Drawing.Point(707, 202);
+            this.txtMutableAttributesTotalLevelDEMValue.Location = new System.Drawing.Point(732, 202);
             this.txtMutableAttributesTotalLevelDEMValue.Name = "txtMutableAttributesTotalLevelDEMValue";
-            this.txtMutableAttributesTotalLevelDEMValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesTotalLevelDEMValue.Size = new System.Drawing.Size(139, 27);
             this.txtMutableAttributesTotalLevelDEMValue.TabIndex = 51;
             // 
             // txtMutableAttributesTotalLevelDDValue
@@ -1204,9 +1204,9 @@ namespace SistemaLDA
             this.txtMutableAttributesTotalLevelDDValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesTotalLevelDDValue.Location = new System.Drawing.Point(707, 235);
+            this.txtMutableAttributesTotalLevelDDValue.Location = new System.Drawing.Point(732, 235);
             this.txtMutableAttributesTotalLevelDDValue.Name = "txtMutableAttributesTotalLevelDDValue";
-            this.txtMutableAttributesTotalLevelDDValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesTotalLevelDDValue.Size = new System.Drawing.Size(139, 27);
             this.txtMutableAttributesTotalLevelDDValue.TabIndex = 52;
             // 
             // txtMutableAttributesTotalLevelRDValue
@@ -1214,9 +1214,9 @@ namespace SistemaLDA
             this.txtMutableAttributesTotalLevelRDValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesTotalLevelRDValue.Location = new System.Drawing.Point(707, 268);
+            this.txtMutableAttributesTotalLevelRDValue.Location = new System.Drawing.Point(732, 268);
             this.txtMutableAttributesTotalLevelRDValue.Name = "txtMutableAttributesTotalLevelRDValue";
-            this.txtMutableAttributesTotalLevelRDValue.Size = new System.Drawing.Size(134, 27);
+            this.txtMutableAttributesTotalLevelRDValue.Size = new System.Drawing.Size(139, 27);
             this.txtMutableAttributesTotalLevelRDValue.TabIndex = 53;
             // 
             // txtMutableAttributesTotalPMValue
@@ -1224,9 +1224,9 @@ namespace SistemaLDA
             this.txtMutableAttributesTotalPMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesTotalPMValue.Location = new System.Drawing.Point(848, 70);
+            this.txtMutableAttributesTotalPMValue.Location = new System.Drawing.Point(878, 70);
             this.txtMutableAttributesTotalPMValue.Name = "txtMutableAttributesTotalPMValue";
-            this.txtMutableAttributesTotalPMValue.Size = new System.Drawing.Size(135, 27);
+            this.txtMutableAttributesTotalPMValue.Size = new System.Drawing.Size(105, 27);
             this.txtMutableAttributesTotalPMValue.TabIndex = 54;
             // 
             // txtMutableAttributesTotalDAFValue
@@ -1234,9 +1234,9 @@ namespace SistemaLDA
             this.txtMutableAttributesTotalDAFValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesTotalDAFValue.Location = new System.Drawing.Point(848, 103);
+            this.txtMutableAttributesTotalDAFValue.Location = new System.Drawing.Point(878, 103);
             this.txtMutableAttributesTotalDAFValue.Name = "txtMutableAttributesTotalDAFValue";
-            this.txtMutableAttributesTotalDAFValue.Size = new System.Drawing.Size(135, 27);
+            this.txtMutableAttributesTotalDAFValue.Size = new System.Drawing.Size(105, 27);
             this.txtMutableAttributesTotalDAFValue.TabIndex = 55;
             // 
             // txtMutableAttributesTotalDAMValue
@@ -1244,9 +1244,9 @@ namespace SistemaLDA
             this.txtMutableAttributesTotalDAMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesTotalDAMValue.Location = new System.Drawing.Point(848, 136);
+            this.txtMutableAttributesTotalDAMValue.Location = new System.Drawing.Point(878, 136);
             this.txtMutableAttributesTotalDAMValue.Name = "txtMutableAttributesTotalDAMValue";
-            this.txtMutableAttributesTotalDAMValue.Size = new System.Drawing.Size(135, 27);
+            this.txtMutableAttributesTotalDAMValue.Size = new System.Drawing.Size(105, 27);
             this.txtMutableAttributesTotalDAMValue.TabIndex = 56;
             // 
             // txtMutableAttributesTotalDEMValue
@@ -1254,9 +1254,9 @@ namespace SistemaLDA
             this.txtMutableAttributesTotalDEMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesTotalDEMValue.Location = new System.Drawing.Point(848, 202);
+            this.txtMutableAttributesTotalDEMValue.Location = new System.Drawing.Point(878, 202);
             this.txtMutableAttributesTotalDEMValue.Name = "txtMutableAttributesTotalDEMValue";
-            this.txtMutableAttributesTotalDEMValue.Size = new System.Drawing.Size(135, 27);
+            this.txtMutableAttributesTotalDEMValue.Size = new System.Drawing.Size(105, 27);
             this.txtMutableAttributesTotalDEMValue.TabIndex = 57;
             // 
             // txtMutableAttributesTotalDDValue
@@ -1264,9 +1264,9 @@ namespace SistemaLDA
             this.txtMutableAttributesTotalDDValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesTotalDDValue.Location = new System.Drawing.Point(848, 235);
+            this.txtMutableAttributesTotalDDValue.Location = new System.Drawing.Point(878, 235);
             this.txtMutableAttributesTotalDDValue.Name = "txtMutableAttributesTotalDDValue";
-            this.txtMutableAttributesTotalDDValue.Size = new System.Drawing.Size(135, 27);
+            this.txtMutableAttributesTotalDDValue.Size = new System.Drawing.Size(105, 27);
             this.txtMutableAttributesTotalDDValue.TabIndex = 58;
             // 
             // txtMutableAttributesTotalRDValue
@@ -1274,9 +1274,9 @@ namespace SistemaLDA
             this.txtMutableAttributesTotalRDValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMutableAttributesTotalRDValue.Location = new System.Drawing.Point(848, 268);
+            this.txtMutableAttributesTotalRDValue.Location = new System.Drawing.Point(878, 268);
             this.txtMutableAttributesTotalRDValue.Name = "txtMutableAttributesTotalRDValue";
-            this.txtMutableAttributesTotalRDValue.Size = new System.Drawing.Size(135, 27);
+            this.txtMutableAttributesTotalRDValue.Size = new System.Drawing.Size(105, 27);
             this.txtMutableAttributesTotalRDValue.TabIndex = 59;
             // 
             // textBox1
@@ -1983,17 +1983,17 @@ namespace SistemaLDA
             this.tableLayoutPanel4.Size = new System.Drawing.Size(200, 100);
             this.tableLayoutPanel4.TabIndex = 0;
             // 
-            // label20
+            // lblFixAttributesHeader
             // 
-            this.label20.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label20.Location = new System.Drawing.Point(395, 2);
-            this.label20.Name = "label20";
-            this.label20.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label20.Size = new System.Drawing.Size(194, 28);
-            this.label20.TabIndex = 4;
-            this.label20.Text = "Atributos Mutáveis";
+            this.lblFixAttributesHeader.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblFixAttributesHeader.AutoSize = true;
+            this.lblFixAttributesHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblFixAttributesHeader.Location = new System.Drawing.Point(415, 2);
+            this.lblFixAttributesHeader.Name = "lblFixAttributesHeader";
+            this.lblFixAttributesHeader.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblFixAttributesHeader.Size = new System.Drawing.Size(155, 28);
+            this.lblFixAttributesHeader.TabIndex = 4;
+            this.lblFixAttributesHeader.Text = "Atributos Fixos";
             // 
             // tlpFixAttributesHeader
             // 
@@ -2004,7 +2004,7 @@ namespace SistemaLDA
             this.tlpFixAttributesHeader.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.109929F));
             this.tlpFixAttributesHeader.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 95.78014F));
             this.tlpFixAttributesHeader.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.109929F));
-            this.tlpFixAttributesHeader.Controls.Add(this.label20, 1, 0);
+            this.tlpFixAttributesHeader.Controls.Add(this.lblFixAttributesHeader, 1, 0);
             this.tlpFixAttributesHeader.Location = new System.Drawing.Point(12, 575);
             this.tlpFixAttributesHeader.Name = "tlpFixAttributesHeader";
             this.tlpFixAttributesHeader.RowCount = 1;
@@ -2012,131 +2012,131 @@ namespace SistemaLDA
             this.tlpFixAttributesHeader.Size = new System.Drawing.Size(987, 33);
             this.tlpFixAttributesHeader.TabIndex = 6;
             // 
-            // tableLayoutPanel5
+            // tlpFixAttributesValues
             // 
-            this.tableLayoutPanel5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.tlpFixAttributesValues.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel5.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel5.ColumnCount = 7;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.98259F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.88032F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.86613F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.31059F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.31059F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.31059F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.31059F));
-            this.tableLayoutPanel5.Controls.Add(this.textBox50, 6, 5);
-            this.tableLayoutPanel5.Controls.Add(this.textBox51, 6, 1);
-            this.tableLayoutPanel5.Controls.Add(this.textBox52, 4, 8);
-            this.tableLayoutPanel5.Controls.Add(this.label21, 1, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label22, 2, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label23, 3, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label24, 4, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label25, 5, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label26, 6, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label27, 0, 1);
-            this.tableLayoutPanel5.Controls.Add(this.label28, 0, 2);
-            this.tableLayoutPanel5.Controls.Add(this.label29, 0, 3);
-            this.tableLayoutPanel5.Controls.Add(this.label30, 0, 4);
-            this.tableLayoutPanel5.Controls.Add(this.label31, 0, 5);
-            this.tableLayoutPanel5.Controls.Add(this.label32, 0, 6);
-            this.tableLayoutPanel5.Controls.Add(this.label33, 0, 7);
-            this.tableLayoutPanel5.Controls.Add(this.label34, 0, 8);
-            this.tableLayoutPanel5.Controls.Add(this.textBox53, 1, 1);
-            this.tableLayoutPanel5.Controls.Add(this.textBox54, 1, 2);
-            this.tableLayoutPanel5.Controls.Add(this.textBox55, 1, 3);
-            this.tableLayoutPanel5.Controls.Add(this.textBox56, 1, 4);
-            this.tableLayoutPanel5.Controls.Add(this.textBox57, 1, 5);
-            this.tableLayoutPanel5.Controls.Add(this.textBox58, 1, 6);
-            this.tableLayoutPanel5.Controls.Add(this.textBox59, 1, 7);
-            this.tableLayoutPanel5.Controls.Add(this.textBox60, 2, 1);
-            this.tableLayoutPanel5.Controls.Add(this.textBox61, 2, 2);
-            this.tableLayoutPanel5.Controls.Add(this.textBox62, 2, 3);
-            this.tableLayoutPanel5.Controls.Add(this.textBox63, 1, 8);
-            this.tableLayoutPanel5.Controls.Add(this.textBox64, 2, 4);
-            this.tableLayoutPanel5.Controls.Add(this.textBox65, 2, 5);
-            this.tableLayoutPanel5.Controls.Add(this.textBox66, 2, 6);
-            this.tableLayoutPanel5.Controls.Add(this.textBox67, 2, 7);
-            this.tableLayoutPanel5.Controls.Add(this.textBox68, 2, 8);
-            this.tableLayoutPanel5.Controls.Add(this.textBox69, 3, 1);
-            this.tableLayoutPanel5.Controls.Add(this.textBox70, 3, 2);
-            this.tableLayoutPanel5.Controls.Add(this.textBox71, 3, 3);
-            this.tableLayoutPanel5.Controls.Add(this.textBox72, 3, 4);
-            this.tableLayoutPanel5.Controls.Add(this.textBox73, 3, 5);
-            this.tableLayoutPanel5.Controls.Add(this.textBox74, 3, 6);
-            this.tableLayoutPanel5.Controls.Add(this.textBox75, 3, 7);
-            this.tableLayoutPanel5.Controls.Add(this.textBox76, 3, 8);
-            this.tableLayoutPanel5.Controls.Add(this.textBox77, 4, 1);
-            this.tableLayoutPanel5.Controls.Add(this.textBox78, 4, 2);
-            this.tableLayoutPanel5.Controls.Add(this.textBox79, 4, 3);
-            this.tableLayoutPanel5.Controls.Add(this.textBox80, 4, 4);
-            this.tableLayoutPanel5.Controls.Add(this.textBox81, 4, 5);
-            this.tableLayoutPanel5.Controls.Add(this.textBox82, 4, 6);
-            this.tableLayoutPanel5.Controls.Add(this.textBox83, 4, 7);
-            this.tableLayoutPanel5.Controls.Add(this.textBox84, 5, 1);
-            this.tableLayoutPanel5.Controls.Add(this.textBox85, 5, 2);
-            this.tableLayoutPanel5.Controls.Add(this.textBox86, 5, 3);
-            this.tableLayoutPanel5.Controls.Add(this.textBox87, 5, 4);
-            this.tableLayoutPanel5.Controls.Add(this.textBox88, 5, 5);
-            this.tableLayoutPanel5.Controls.Add(this.textBox89, 5, 6);
-            this.tableLayoutPanel5.Controls.Add(this.textBox90, 5, 7);
-            this.tableLayoutPanel5.Controls.Add(this.textBox91, 5, 8);
-            this.tableLayoutPanel5.Controls.Add(this.textBox92, 6, 2);
-            this.tableLayoutPanel5.Controls.Add(this.textBox93, 6, 3);
-            this.tableLayoutPanel5.Controls.Add(this.textBox94, 6, 4);
-            this.tableLayoutPanel5.Controls.Add(this.textBox95, 6, 6);
-            this.tableLayoutPanel5.Controls.Add(this.textBox96, 6, 7);
-            this.tableLayoutPanel5.Controls.Add(this.textBox97, 6, 8);
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(12, 614);
-            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.RowCount = 9;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(987, 303);
-            this.tableLayoutPanel5.TabIndex = 7;
+            this.tlpFixAttributesValues.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tlpFixAttributesValues.ColumnCount = 7;
+            this.tlpFixAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tlpFixAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.21281F));
+            this.tlpFixAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15.6788F));
+            this.tlpFixAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18.90868F));
+            this.tlpFixAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18.90868F));
+            this.tlpFixAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18.90868F));
+            this.tlpFixAttributesValues.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 13.38235F));
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesTotalTRAValue, 6, 5);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesTotalVELValue, 6, 1);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesEquipePCValue, 4, 8);
+            this.tlpFixAttributesValues.Controls.Add(this.label21, 1, 0);
+            this.tlpFixAttributesValues.Controls.Add(this.label22, 2, 0);
+            this.tlpFixAttributesValues.Controls.Add(this.label23, 3, 0);
+            this.tlpFixAttributesValues.Controls.Add(this.label24, 4, 0);
+            this.tlpFixAttributesValues.Controls.Add(this.label25, 5, 0);
+            this.tlpFixAttributesValues.Controls.Add(this.label26, 6, 0);
+            this.tlpFixAttributesValues.Controls.Add(this.lblSpeedPoints, 0, 1);
+            this.tlpFixAttributesValues.Controls.Add(this.lblPrecisionPoints, 0, 2);
+            this.tlpFixAttributesValues.Controls.Add(this.lblEvasionPoints, 0, 3);
+            this.tlpFixAttributesValues.Controls.Add(this.lblFocusPoints, 0, 4);
+            this.tlpFixAttributesValues.Controls.Add(this.lblTrancePoints, 0, 5);
+            this.tlpFixAttributesValues.Controls.Add(this.lblConcentrationPoints, 0, 6);
+            this.tlpFixAttributesValues.Controls.Add(this.lblVigorPoints, 0, 7);
+            this.tlpFixAttributesValues.Controls.Add(this.lblSConcentrationsPoints, 0, 8);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesBaseVELValue, 1, 1);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesBasePREValue, 1, 2);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesBaseEVAValue, 1, 3);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesBaseFOCValue, 1, 4);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesBaseTRAValue, 1, 5);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesBaseCOMValue, 1, 6);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesBaseVIGValue, 1, 7);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesBreedVELValue, 2, 1);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesBreedPREValue, 2, 2);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesBreedEVAValue, 2, 3);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesBasePCValue, 1, 8);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesBreedFOCValue, 2, 4);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesBreedTRAValue, 2, 5);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesBreedCOMValue, 2, 6);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesBreedVIGValue, 2, 7);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesBreedPCValue, 2, 8);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesClassVELValue, 3, 1);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesClassPREValue, 3, 2);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesClassEVAValue, 3, 3);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesClassFOCValue, 3, 4);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesClassTRAValue, 3, 5);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesClassCOMValue, 3, 6);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesClassVIGValue, 3, 7);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesClassPCValue, 3, 8);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesEquipeVELValue, 4, 1);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesEquipePREValue, 4, 2);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesEquipeEVAValue, 4, 3);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesEquipeFOCValue, 4, 4);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesEquipeTRAValue, 4, 5);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesEquipeCOMValue, 4, 6);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesEquipeVIGValue, 4, 7);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesTotalLevelVELValue, 5, 1);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesTotalLevelPREValue, 5, 2);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesTotalLevelEVAValue, 5, 3);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesTotalLevelFOCValue, 5, 4);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesTotalLevelTRAValue, 5, 5);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesTotalLevelCOMValue, 5, 6);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesTotalLevelVIGValue, 5, 7);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesTotalLevelPCValue, 5, 8);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesTotalPREValue, 6, 2);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesTotalEVAValue, 6, 3);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesTotalFOCValue, 6, 4);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesTotalCOMValue, 6, 6);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesTotalVIGValue, 6, 7);
+            this.tlpFixAttributesValues.Controls.Add(this.txtFixAttributesTotalPCValue, 6, 8);
+            this.tlpFixAttributesValues.Location = new System.Drawing.Point(12, 614);
+            this.tlpFixAttributesValues.Name = "tlpFixAttributesValues";
+            this.tlpFixAttributesValues.RowCount = 9;
+            this.tlpFixAttributesValues.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tlpFixAttributesValues.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tlpFixAttributesValues.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tlpFixAttributesValues.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tlpFixAttributesValues.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tlpFixAttributesValues.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tlpFixAttributesValues.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tlpFixAttributesValues.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tlpFixAttributesValues.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tlpFixAttributesValues.Size = new System.Drawing.Size(987, 303);
+            this.tlpFixAttributesValues.TabIndex = 7;
             // 
-            // textBox50
+            // txtFixAttributesTotalTRAValue
             // 
-            this.textBox50.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesTotalTRAValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox50.Location = new System.Drawing.Point(848, 169);
-            this.textBox50.Name = "textBox50";
-            this.textBox50.Size = new System.Drawing.Size(135, 27);
-            this.textBox50.TabIndex = 23;
+            this.txtFixAttributesTotalTRAValue.Location = new System.Drawing.Point(884, 169);
+            this.txtFixAttributesTotalTRAValue.Name = "txtFixAttributesTotalTRAValue";
+            this.txtFixAttributesTotalTRAValue.Size = new System.Drawing.Size(99, 27);
+            this.txtFixAttributesTotalTRAValue.TabIndex = 23;
             // 
-            // textBox51
+            // txtFixAttributesTotalVELValue
             // 
-            this.textBox51.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesTotalVELValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox51.Location = new System.Drawing.Point(848, 37);
-            this.textBox51.Name = "textBox51";
-            this.textBox51.Size = new System.Drawing.Size(135, 27);
-            this.textBox51.TabIndex = 23;
+            this.txtFixAttributesTotalVELValue.Location = new System.Drawing.Point(884, 37);
+            this.txtFixAttributesTotalVELValue.Name = "txtFixAttributesTotalVELValue";
+            this.txtFixAttributesTotalVELValue.Size = new System.Drawing.Size(99, 27);
+            this.txtFixAttributesTotalVELValue.TabIndex = 23;
             // 
-            // textBox52
+            // txtFixAttributesEquipePCValue
             // 
-            this.textBox52.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesEquipePCValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox52.Location = new System.Drawing.Point(566, 268);
-            this.textBox52.Name = "textBox52";
-            this.textBox52.Size = new System.Drawing.Size(134, 27);
-            this.textBox52.TabIndex = 45;
+            this.txtFixAttributesEquipePCValue.Location = new System.Drawing.Point(590, 268);
+            this.txtFixAttributesEquipePCValue.Name = "txtFixAttributesEquipePCValue";
+            this.txtFixAttributesEquipePCValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesEquipePCValue.TabIndex = 45;
             // 
             // label21
             // 
             this.label21.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(221, 7);
+            this.label21.Location = new System.Drawing.Point(242, 7);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(40, 20);
             this.label21.TabIndex = 0;
@@ -2146,7 +2146,7 @@ namespace SistemaLDA
             // 
             this.label22.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(342, 7);
+            this.label22.Location = new System.Drawing.Point(358, 7);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(41, 20);
             this.label22.TabIndex = 1;
@@ -2156,7 +2156,7 @@ namespace SistemaLDA
             // 
             this.label23.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(467, 7);
+            this.label23.Location = new System.Drawing.Point(488, 7);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(50, 20);
             this.label23.TabIndex = 2;
@@ -2166,7 +2166,7 @@ namespace SistemaLDA
             // 
             this.label24.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(605, 7);
+            this.label24.Location = new System.Drawing.Point(632, 7);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(55, 20);
             this.label24.TabIndex = 3;
@@ -2176,7 +2176,7 @@ namespace SistemaLDA
             // 
             this.label25.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(720, 7);
+            this.label25.Location = new System.Drawing.Point(753, 7);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(107, 20);
             this.label25.TabIndex = 4;
@@ -2186,546 +2186,546 @@ namespace SistemaLDA
             // 
             this.label26.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(894, 7);
+            this.label26.Location = new System.Drawing.Point(912, 7);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(42, 20);
             this.label26.TabIndex = 5;
             this.label26.Text = "Total";
             // 
-            // label27
+            // lblSpeedPoints
             // 
-            this.label27.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(19, 40);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(139, 20);
-            this.label27.TabIndex = 6;
-            this.label27.Text = "Pontos de Vida (PV)";
+            this.lblSpeedPoints.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lblSpeedPoints.AutoSize = true;
+            this.lblSpeedPoints.Location = new System.Drawing.Point(4, 40);
+            this.lblSpeedPoints.Name = "lblSpeedPoints";
+            this.lblSpeedPoints.Size = new System.Drawing.Size(121, 20);
+            this.lblSpeedPoints.TabIndex = 6;
+            this.lblSpeedPoints.Text = "Velocidade (VEL)";
             // 
-            // label28
+            // lblPrecisionPoints
             // 
-            this.label28.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(14, 73);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(150, 20);
-            this.label28.TabIndex = 7;
-            this.label28.Text = "Pontos de Mana (PM)";
+            this.lblPrecisionPoints.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lblPrecisionPoints.AutoSize = true;
+            this.lblPrecisionPoints.Location = new System.Drawing.Point(4, 73);
+            this.lblPrecisionPoints.Name = "lblPrecisionPoints";
+            this.lblPrecisionPoints.Size = new System.Drawing.Size(103, 20);
+            this.lblPrecisionPoints.TabIndex = 7;
+            this.lblPrecisionPoints.Text = "Precisão (PRE)";
             // 
-            // label29
+            // lblEvasionPoints
             // 
-            this.label29.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(25, 106);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(128, 20);
-            this.label29.TabIndex = 8;
-            this.label29.Text = "Dano Físico (DAF)";
+            this.lblEvasionPoints.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lblEvasionPoints.AutoSize = true;
+            this.lblEvasionPoints.Location = new System.Drawing.Point(4, 106);
+            this.lblEvasionPoints.Name = "lblEvasionPoints";
+            this.lblEvasionPoints.Size = new System.Drawing.Size(95, 20);
+            this.lblEvasionPoints.TabIndex = 8;
+            this.lblEvasionPoints.Text = "Evasão (EVA)";
             // 
-            // label30
+            // lblFocusPoints
             // 
-            this.label30.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(15, 139);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(147, 20);
-            this.label30.TabIndex = 9;
-            this.label30.Text = "Dano Mágico (DAM)";
+            this.lblFocusPoints.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lblFocusPoints.AutoSize = true;
+            this.lblFocusPoints.Location = new System.Drawing.Point(4, 139);
+            this.lblFocusPoints.Name = "lblFocusPoints";
+            this.lblFocusPoints.Size = new System.Drawing.Size(82, 20);
+            this.lblFocusPoints.TabIndex = 9;
+            this.lblFocusPoints.Text = "Foco (FOC)";
             // 
-            // label31
+            // lblTrancePoints
             // 
-            this.label31.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(21, 172);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(135, 20);
-            this.label31.TabIndex = 10;
-            this.label31.Text = "Defesa Física (DEF)";
+            this.lblTrancePoints.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lblTrancePoints.AutoSize = true;
+            this.lblTrancePoints.Location = new System.Drawing.Point(4, 172);
+            this.lblTrancePoints.Name = "lblTrancePoints";
+            this.lblTrancePoints.Size = new System.Drawing.Size(92, 20);
+            this.lblTrancePoints.TabIndex = 10;
+            this.lblTrancePoints.Text = "Transe (TRA)";
             // 
-            // label32
+            // lblConcentrationPoints
             // 
-            this.label32.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(12, 205);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(154, 20);
-            this.label32.TabIndex = 11;
-            this.label32.Text = "Defesa Mágica (DEM)";
+            this.lblConcentrationPoints.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lblConcentrationPoints.AutoSize = true;
+            this.lblConcentrationPoints.Location = new System.Drawing.Point(4, 205);
+            this.lblConcentrationPoints.Name = "lblConcentrationPoints";
+            this.lblConcentrationPoints.Size = new System.Drawing.Size(147, 20);
+            this.lblConcentrationPoints.TabIndex = 11;
+            this.lblConcentrationPoints.Text = "Concentração (COM)";
             // 
-            // label33
+            // lblVigorPoints
             // 
-            this.label33.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(25, 238);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(127, 20);
-            this.label33.TabIndex = 12;
-            this.label33.Text = "Dano Direto (DD)";
+            this.lblVigorPoints.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lblVigorPoints.AutoSize = true;
+            this.lblVigorPoints.Location = new System.Drawing.Point(4, 238);
+            this.lblVigorPoints.Name = "lblVigorPoints";
+            this.lblVigorPoints.Size = new System.Drawing.Size(82, 20);
+            this.lblVigorPoints.TabIndex = 12;
+            this.lblVigorPoints.Text = "Vigor (VIG)";
             // 
-            // label34
+            // lblSConcentrationsPoints
             // 
-            this.label34.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(8, 273);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(162, 20);
-            this.label34.TabIndex = 13;
-            this.label34.Text = "Redução de Dano (RD)";
+            this.lblSConcentrationsPoints.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lblSConcentrationsPoints.AutoSize = true;
+            this.lblSConcentrationsPoints.Location = new System.Drawing.Point(4, 273);
+            this.lblSConcentrationsPoints.Name = "lblSConcentrationsPoints";
+            this.lblSConcentrationsPoints.Size = new System.Drawing.Size(200, 20);
+            this.lblSConcentrationsPoints.TabIndex = 13;
+            this.lblSConcentrationsPoints.Text = "Pontos de Concentração (PC)";
             // 
-            // textBox53
+            // txtFixAttributesBaseVELValue
             // 
-            this.textBox53.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesBaseVELValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox53.Location = new System.Drawing.Point(181, 37);
-            this.textBox53.Name = "textBox53";
-            this.textBox53.Size = new System.Drawing.Size(120, 27);
-            this.textBox53.TabIndex = 14;
+            this.txtFixAttributesBaseVELValue.Location = new System.Drawing.Point(211, 37);
+            this.txtFixAttributesBaseVELValue.Name = "txtFixAttributesBaseVELValue";
+            this.txtFixAttributesBaseVELValue.Size = new System.Drawing.Size(103, 27);
+            this.txtFixAttributesBaseVELValue.TabIndex = 14;
             // 
-            // textBox54
+            // txtFixAttributesBasePREValue
             // 
-            this.textBox54.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesBasePREValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox54.Location = new System.Drawing.Point(181, 70);
-            this.textBox54.Name = "textBox54";
-            this.textBox54.Size = new System.Drawing.Size(120, 27);
-            this.textBox54.TabIndex = 15;
+            this.txtFixAttributesBasePREValue.Location = new System.Drawing.Point(211, 70);
+            this.txtFixAttributesBasePREValue.Name = "txtFixAttributesBasePREValue";
+            this.txtFixAttributesBasePREValue.Size = new System.Drawing.Size(103, 27);
+            this.txtFixAttributesBasePREValue.TabIndex = 15;
             // 
-            // textBox55
+            // txtFixAttributesBaseEVAValue
             // 
-            this.textBox55.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesBaseEVAValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox55.Location = new System.Drawing.Point(181, 103);
-            this.textBox55.Name = "textBox55";
-            this.textBox55.Size = new System.Drawing.Size(120, 27);
-            this.textBox55.TabIndex = 16;
+            this.txtFixAttributesBaseEVAValue.Location = new System.Drawing.Point(211, 103);
+            this.txtFixAttributesBaseEVAValue.Name = "txtFixAttributesBaseEVAValue";
+            this.txtFixAttributesBaseEVAValue.Size = new System.Drawing.Size(103, 27);
+            this.txtFixAttributesBaseEVAValue.TabIndex = 16;
             // 
-            // textBox56
+            // txtFixAttributesBaseFOCValue
             // 
-            this.textBox56.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesBaseFOCValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox56.Location = new System.Drawing.Point(181, 136);
-            this.textBox56.Name = "textBox56";
-            this.textBox56.Size = new System.Drawing.Size(120, 27);
-            this.textBox56.TabIndex = 17;
+            this.txtFixAttributesBaseFOCValue.Location = new System.Drawing.Point(211, 136);
+            this.txtFixAttributesBaseFOCValue.Name = "txtFixAttributesBaseFOCValue";
+            this.txtFixAttributesBaseFOCValue.Size = new System.Drawing.Size(103, 27);
+            this.txtFixAttributesBaseFOCValue.TabIndex = 17;
             // 
-            // textBox57
+            // txtFixAttributesBaseTRAValue
             // 
-            this.textBox57.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesBaseTRAValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox57.Location = new System.Drawing.Point(181, 169);
-            this.textBox57.Name = "textBox57";
-            this.textBox57.Size = new System.Drawing.Size(120, 27);
-            this.textBox57.TabIndex = 18;
+            this.txtFixAttributesBaseTRAValue.Location = new System.Drawing.Point(211, 169);
+            this.txtFixAttributesBaseTRAValue.Name = "txtFixAttributesBaseTRAValue";
+            this.txtFixAttributesBaseTRAValue.Size = new System.Drawing.Size(103, 27);
+            this.txtFixAttributesBaseTRAValue.TabIndex = 18;
             // 
-            // textBox58
+            // txtFixAttributesBaseCOMValue
             // 
-            this.textBox58.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesBaseCOMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox58.Location = new System.Drawing.Point(181, 202);
-            this.textBox58.Name = "textBox58";
-            this.textBox58.Size = new System.Drawing.Size(120, 27);
-            this.textBox58.TabIndex = 19;
+            this.txtFixAttributesBaseCOMValue.Location = new System.Drawing.Point(211, 202);
+            this.txtFixAttributesBaseCOMValue.Name = "txtFixAttributesBaseCOMValue";
+            this.txtFixAttributesBaseCOMValue.Size = new System.Drawing.Size(103, 27);
+            this.txtFixAttributesBaseCOMValue.TabIndex = 19;
             // 
-            // textBox59
+            // txtFixAttributesBaseVIGValue
             // 
-            this.textBox59.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesBaseVIGValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox59.Location = new System.Drawing.Point(181, 235);
-            this.textBox59.Name = "textBox59";
-            this.textBox59.Size = new System.Drawing.Size(120, 27);
-            this.textBox59.TabIndex = 20;
+            this.txtFixAttributesBaseVIGValue.Location = new System.Drawing.Point(211, 235);
+            this.txtFixAttributesBaseVIGValue.Name = "txtFixAttributesBaseVIGValue";
+            this.txtFixAttributesBaseVIGValue.Size = new System.Drawing.Size(103, 27);
+            this.txtFixAttributesBaseVIGValue.TabIndex = 20;
             // 
-            // textBox60
+            // txtFixAttributesBreedVELValue
             // 
-            this.textBox60.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesBreedVELValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox60.Location = new System.Drawing.Point(308, 37);
-            this.textBox60.Name = "textBox60";
-            this.textBox60.Size = new System.Drawing.Size(110, 27);
-            this.textBox60.TabIndex = 22;
+            this.txtFixAttributesBreedVELValue.Location = new System.Drawing.Point(321, 37);
+            this.txtFixAttributesBreedVELValue.Name = "txtFixAttributesBreedVELValue";
+            this.txtFixAttributesBreedVELValue.Size = new System.Drawing.Size(115, 27);
+            this.txtFixAttributesBreedVELValue.TabIndex = 22;
             // 
-            // textBox61
+            // txtFixAttributesBreedPREValue
             // 
-            this.textBox61.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesBreedPREValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox61.Location = new System.Drawing.Point(308, 70);
-            this.textBox61.Name = "textBox61";
-            this.textBox61.Size = new System.Drawing.Size(110, 27);
-            this.textBox61.TabIndex = 23;
+            this.txtFixAttributesBreedPREValue.Location = new System.Drawing.Point(321, 70);
+            this.txtFixAttributesBreedPREValue.Name = "txtFixAttributesBreedPREValue";
+            this.txtFixAttributesBreedPREValue.Size = new System.Drawing.Size(115, 27);
+            this.txtFixAttributesBreedPREValue.TabIndex = 23;
             // 
-            // textBox62
+            // txtFixAttributesBreedEVAValue
             // 
-            this.textBox62.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesBreedEVAValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox62.Location = new System.Drawing.Point(308, 103);
-            this.textBox62.Name = "textBox62";
-            this.textBox62.Size = new System.Drawing.Size(110, 27);
-            this.textBox62.TabIndex = 24;
+            this.txtFixAttributesBreedEVAValue.Location = new System.Drawing.Point(321, 103);
+            this.txtFixAttributesBreedEVAValue.Name = "txtFixAttributesBreedEVAValue";
+            this.txtFixAttributesBreedEVAValue.Size = new System.Drawing.Size(115, 27);
+            this.txtFixAttributesBreedEVAValue.TabIndex = 24;
             // 
-            // textBox63
+            // txtFixAttributesBasePCValue
             // 
-            this.textBox63.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesBasePCValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox63.Location = new System.Drawing.Point(181, 268);
-            this.textBox63.Name = "textBox63";
-            this.textBox63.Size = new System.Drawing.Size(120, 27);
-            this.textBox63.TabIndex = 25;
+            this.txtFixAttributesBasePCValue.Location = new System.Drawing.Point(211, 268);
+            this.txtFixAttributesBasePCValue.Name = "txtFixAttributesBasePCValue";
+            this.txtFixAttributesBasePCValue.Size = new System.Drawing.Size(103, 27);
+            this.txtFixAttributesBasePCValue.TabIndex = 25;
             // 
-            // textBox64
+            // txtFixAttributesBreedFOCValue
             // 
-            this.textBox64.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesBreedFOCValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox64.Location = new System.Drawing.Point(308, 136);
-            this.textBox64.Name = "textBox64";
-            this.textBox64.Size = new System.Drawing.Size(110, 27);
-            this.textBox64.TabIndex = 21;
+            this.txtFixAttributesBreedFOCValue.Location = new System.Drawing.Point(321, 136);
+            this.txtFixAttributesBreedFOCValue.Name = "txtFixAttributesBreedFOCValue";
+            this.txtFixAttributesBreedFOCValue.Size = new System.Drawing.Size(115, 27);
+            this.txtFixAttributesBreedFOCValue.TabIndex = 21;
             // 
-            // textBox65
+            // txtFixAttributesBreedTRAValue
             // 
-            this.textBox65.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesBreedTRAValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox65.Location = new System.Drawing.Point(308, 169);
-            this.textBox65.Name = "textBox65";
-            this.textBox65.Size = new System.Drawing.Size(110, 27);
-            this.textBox65.TabIndex = 26;
+            this.txtFixAttributesBreedTRAValue.Location = new System.Drawing.Point(321, 169);
+            this.txtFixAttributesBreedTRAValue.Name = "txtFixAttributesBreedTRAValue";
+            this.txtFixAttributesBreedTRAValue.Size = new System.Drawing.Size(115, 27);
+            this.txtFixAttributesBreedTRAValue.TabIndex = 26;
             // 
-            // textBox66
+            // txtFixAttributesBreedCOMValue
             // 
-            this.textBox66.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesBreedCOMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox66.Location = new System.Drawing.Point(308, 202);
-            this.textBox66.Name = "textBox66";
-            this.textBox66.Size = new System.Drawing.Size(110, 27);
-            this.textBox66.TabIndex = 27;
+            this.txtFixAttributesBreedCOMValue.Location = new System.Drawing.Point(321, 202);
+            this.txtFixAttributesBreedCOMValue.Name = "txtFixAttributesBreedCOMValue";
+            this.txtFixAttributesBreedCOMValue.Size = new System.Drawing.Size(115, 27);
+            this.txtFixAttributesBreedCOMValue.TabIndex = 27;
             // 
-            // textBox67
+            // txtFixAttributesBreedVIGValue
             // 
-            this.textBox67.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesBreedVIGValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox67.Location = new System.Drawing.Point(308, 235);
-            this.textBox67.Name = "textBox67";
-            this.textBox67.Size = new System.Drawing.Size(110, 27);
-            this.textBox67.TabIndex = 28;
+            this.txtFixAttributesBreedVIGValue.Location = new System.Drawing.Point(321, 235);
+            this.txtFixAttributesBreedVIGValue.Name = "txtFixAttributesBreedVIGValue";
+            this.txtFixAttributesBreedVIGValue.Size = new System.Drawing.Size(115, 27);
+            this.txtFixAttributesBreedVIGValue.TabIndex = 28;
             // 
-            // textBox68
+            // txtFixAttributesBreedPCValue
             // 
-            this.textBox68.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesBreedPCValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox68.Location = new System.Drawing.Point(308, 268);
-            this.textBox68.Name = "textBox68";
-            this.textBox68.Size = new System.Drawing.Size(110, 27);
-            this.textBox68.TabIndex = 29;
+            this.txtFixAttributesBreedPCValue.Location = new System.Drawing.Point(321, 268);
+            this.txtFixAttributesBreedPCValue.Name = "txtFixAttributesBreedPCValue";
+            this.txtFixAttributesBreedPCValue.Size = new System.Drawing.Size(115, 27);
+            this.txtFixAttributesBreedPCValue.TabIndex = 29;
             // 
-            // textBox69
+            // txtFixAttributesClassVELValue
             // 
-            this.textBox69.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesClassVELValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox69.Location = new System.Drawing.Point(425, 37);
-            this.textBox69.Name = "textBox69";
-            this.textBox69.Size = new System.Drawing.Size(134, 27);
-            this.textBox69.TabIndex = 30;
+            this.txtFixAttributesClassVELValue.Location = new System.Drawing.Point(443, 37);
+            this.txtFixAttributesClassVELValue.Name = "txtFixAttributesClassVELValue";
+            this.txtFixAttributesClassVELValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesClassVELValue.TabIndex = 30;
             // 
-            // textBox70
+            // txtFixAttributesClassPREValue
             // 
-            this.textBox70.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesClassPREValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox70.Location = new System.Drawing.Point(425, 70);
-            this.textBox70.Name = "textBox70";
-            this.textBox70.Size = new System.Drawing.Size(134, 27);
-            this.textBox70.TabIndex = 31;
+            this.txtFixAttributesClassPREValue.Location = new System.Drawing.Point(443, 70);
+            this.txtFixAttributesClassPREValue.Name = "txtFixAttributesClassPREValue";
+            this.txtFixAttributesClassPREValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesClassPREValue.TabIndex = 31;
             // 
-            // textBox71
+            // txtFixAttributesClassEVAValue
             // 
-            this.textBox71.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesClassEVAValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox71.Location = new System.Drawing.Point(425, 103);
-            this.textBox71.Name = "textBox71";
-            this.textBox71.Size = new System.Drawing.Size(134, 27);
-            this.textBox71.TabIndex = 32;
+            this.txtFixAttributesClassEVAValue.Location = new System.Drawing.Point(443, 103);
+            this.txtFixAttributesClassEVAValue.Name = "txtFixAttributesClassEVAValue";
+            this.txtFixAttributesClassEVAValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesClassEVAValue.TabIndex = 32;
             // 
-            // textBox72
+            // txtFixAttributesClassFOCValue
             // 
-            this.textBox72.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesClassFOCValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox72.Location = new System.Drawing.Point(425, 136);
-            this.textBox72.Name = "textBox72";
-            this.textBox72.Size = new System.Drawing.Size(134, 27);
-            this.textBox72.TabIndex = 33;
+            this.txtFixAttributesClassFOCValue.Location = new System.Drawing.Point(443, 136);
+            this.txtFixAttributesClassFOCValue.Name = "txtFixAttributesClassFOCValue";
+            this.txtFixAttributesClassFOCValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesClassFOCValue.TabIndex = 33;
             // 
-            // textBox73
+            // txtFixAttributesClassTRAValue
             // 
-            this.textBox73.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesClassTRAValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox73.Location = new System.Drawing.Point(425, 169);
-            this.textBox73.Name = "textBox73";
-            this.textBox73.Size = new System.Drawing.Size(134, 27);
-            this.textBox73.TabIndex = 34;
+            this.txtFixAttributesClassTRAValue.Location = new System.Drawing.Point(443, 169);
+            this.txtFixAttributesClassTRAValue.Name = "txtFixAttributesClassTRAValue";
+            this.txtFixAttributesClassTRAValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesClassTRAValue.TabIndex = 34;
             // 
-            // textBox74
+            // txtFixAttributesClassCOMValue
             // 
-            this.textBox74.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesClassCOMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox74.Location = new System.Drawing.Point(425, 202);
-            this.textBox74.Name = "textBox74";
-            this.textBox74.Size = new System.Drawing.Size(134, 27);
-            this.textBox74.TabIndex = 35;
+            this.txtFixAttributesClassCOMValue.Location = new System.Drawing.Point(443, 202);
+            this.txtFixAttributesClassCOMValue.Name = "txtFixAttributesClassCOMValue";
+            this.txtFixAttributesClassCOMValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesClassCOMValue.TabIndex = 35;
             // 
-            // textBox75
+            // txtFixAttributesClassVIGValue
             // 
-            this.textBox75.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesClassVIGValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox75.Location = new System.Drawing.Point(425, 235);
-            this.textBox75.Name = "textBox75";
-            this.textBox75.Size = new System.Drawing.Size(134, 27);
-            this.textBox75.TabIndex = 36;
+            this.txtFixAttributesClassVIGValue.Location = new System.Drawing.Point(443, 235);
+            this.txtFixAttributesClassVIGValue.Name = "txtFixAttributesClassVIGValue";
+            this.txtFixAttributesClassVIGValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesClassVIGValue.TabIndex = 36;
             // 
-            // textBox76
+            // txtFixAttributesClassPCValue
             // 
-            this.textBox76.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesClassPCValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox76.Location = new System.Drawing.Point(425, 268);
-            this.textBox76.Name = "textBox76";
-            this.textBox76.Size = new System.Drawing.Size(134, 27);
-            this.textBox76.TabIndex = 37;
+            this.txtFixAttributesClassPCValue.Location = new System.Drawing.Point(443, 268);
+            this.txtFixAttributesClassPCValue.Name = "txtFixAttributesClassPCValue";
+            this.txtFixAttributesClassPCValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesClassPCValue.TabIndex = 37;
             // 
-            // textBox77
+            // txtFixAttributesEquipeVELValue
             // 
-            this.textBox77.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesEquipeVELValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox77.Location = new System.Drawing.Point(566, 37);
-            this.textBox77.Name = "textBox77";
-            this.textBox77.Size = new System.Drawing.Size(134, 27);
-            this.textBox77.TabIndex = 38;
+            this.txtFixAttributesEquipeVELValue.Location = new System.Drawing.Point(590, 37);
+            this.txtFixAttributesEquipeVELValue.Name = "txtFixAttributesEquipeVELValue";
+            this.txtFixAttributesEquipeVELValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesEquipeVELValue.TabIndex = 38;
             // 
-            // textBox78
+            // txtFixAttributesEquipePREValue
             // 
-            this.textBox78.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesEquipePREValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox78.Location = new System.Drawing.Point(566, 70);
-            this.textBox78.Name = "textBox78";
-            this.textBox78.Size = new System.Drawing.Size(134, 27);
-            this.textBox78.TabIndex = 39;
+            this.txtFixAttributesEquipePREValue.Location = new System.Drawing.Point(590, 70);
+            this.txtFixAttributesEquipePREValue.Name = "txtFixAttributesEquipePREValue";
+            this.txtFixAttributesEquipePREValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesEquipePREValue.TabIndex = 39;
             // 
-            // textBox79
+            // txtFixAttributesEquipeEVAValue
             // 
-            this.textBox79.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesEquipeEVAValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox79.Location = new System.Drawing.Point(566, 103);
-            this.textBox79.Name = "textBox79";
-            this.textBox79.Size = new System.Drawing.Size(134, 27);
-            this.textBox79.TabIndex = 40;
+            this.txtFixAttributesEquipeEVAValue.Location = new System.Drawing.Point(590, 103);
+            this.txtFixAttributesEquipeEVAValue.Name = "txtFixAttributesEquipeEVAValue";
+            this.txtFixAttributesEquipeEVAValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesEquipeEVAValue.TabIndex = 40;
             // 
-            // textBox80
+            // txtFixAttributesEquipeFOCValue
             // 
-            this.textBox80.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesEquipeFOCValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox80.Location = new System.Drawing.Point(566, 136);
-            this.textBox80.Name = "textBox80";
-            this.textBox80.Size = new System.Drawing.Size(134, 27);
-            this.textBox80.TabIndex = 41;
+            this.txtFixAttributesEquipeFOCValue.Location = new System.Drawing.Point(590, 136);
+            this.txtFixAttributesEquipeFOCValue.Name = "txtFixAttributesEquipeFOCValue";
+            this.txtFixAttributesEquipeFOCValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesEquipeFOCValue.TabIndex = 41;
             // 
-            // textBox81
+            // txtFixAttributesEquipeTRAValue
             // 
-            this.textBox81.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesEquipeTRAValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox81.Location = new System.Drawing.Point(566, 169);
-            this.textBox81.Name = "textBox81";
-            this.textBox81.Size = new System.Drawing.Size(134, 27);
-            this.textBox81.TabIndex = 42;
+            this.txtFixAttributesEquipeTRAValue.Location = new System.Drawing.Point(590, 169);
+            this.txtFixAttributesEquipeTRAValue.Name = "txtFixAttributesEquipeTRAValue";
+            this.txtFixAttributesEquipeTRAValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesEquipeTRAValue.TabIndex = 42;
             // 
-            // textBox82
+            // txtFixAttributesEquipeCOMValue
             // 
-            this.textBox82.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesEquipeCOMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox82.Location = new System.Drawing.Point(566, 202);
-            this.textBox82.Name = "textBox82";
-            this.textBox82.Size = new System.Drawing.Size(134, 27);
-            this.textBox82.TabIndex = 43;
+            this.txtFixAttributesEquipeCOMValue.Location = new System.Drawing.Point(590, 202);
+            this.txtFixAttributesEquipeCOMValue.Name = "txtFixAttributesEquipeCOMValue";
+            this.txtFixAttributesEquipeCOMValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesEquipeCOMValue.TabIndex = 43;
             // 
-            // textBox83
+            // txtFixAttributesEquipeVIGValue
             // 
-            this.textBox83.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesEquipeVIGValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox83.Location = new System.Drawing.Point(566, 235);
-            this.textBox83.Name = "textBox83";
-            this.textBox83.Size = new System.Drawing.Size(134, 27);
-            this.textBox83.TabIndex = 44;
+            this.txtFixAttributesEquipeVIGValue.Location = new System.Drawing.Point(590, 235);
+            this.txtFixAttributesEquipeVIGValue.Name = "txtFixAttributesEquipeVIGValue";
+            this.txtFixAttributesEquipeVIGValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesEquipeVIGValue.TabIndex = 44;
             // 
-            // textBox84
+            // txtFixAttributesTotalLevelVELValue
             // 
-            this.textBox84.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesTotalLevelVELValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox84.Location = new System.Drawing.Point(707, 37);
-            this.textBox84.Name = "textBox84";
-            this.textBox84.Size = new System.Drawing.Size(134, 27);
-            this.textBox84.TabIndex = 46;
+            this.txtFixAttributesTotalLevelVELValue.Location = new System.Drawing.Point(737, 37);
+            this.txtFixAttributesTotalLevelVELValue.Name = "txtFixAttributesTotalLevelVELValue";
+            this.txtFixAttributesTotalLevelVELValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesTotalLevelVELValue.TabIndex = 46;
             // 
-            // textBox85
+            // txtFixAttributesTotalLevelPREValue
             // 
-            this.textBox85.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesTotalLevelPREValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox85.Location = new System.Drawing.Point(707, 70);
-            this.textBox85.Name = "textBox85";
-            this.textBox85.Size = new System.Drawing.Size(134, 27);
-            this.textBox85.TabIndex = 47;
+            this.txtFixAttributesTotalLevelPREValue.Location = new System.Drawing.Point(737, 70);
+            this.txtFixAttributesTotalLevelPREValue.Name = "txtFixAttributesTotalLevelPREValue";
+            this.txtFixAttributesTotalLevelPREValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesTotalLevelPREValue.TabIndex = 47;
             // 
-            // textBox86
+            // txtFixAttributesTotalLevelEVAValue
             // 
-            this.textBox86.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesTotalLevelEVAValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox86.Location = new System.Drawing.Point(707, 103);
-            this.textBox86.Name = "textBox86";
-            this.textBox86.Size = new System.Drawing.Size(134, 27);
-            this.textBox86.TabIndex = 48;
+            this.txtFixAttributesTotalLevelEVAValue.Location = new System.Drawing.Point(737, 103);
+            this.txtFixAttributesTotalLevelEVAValue.Name = "txtFixAttributesTotalLevelEVAValue";
+            this.txtFixAttributesTotalLevelEVAValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesTotalLevelEVAValue.TabIndex = 48;
             // 
-            // textBox87
+            // txtFixAttributesTotalLevelFOCValue
             // 
-            this.textBox87.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesTotalLevelFOCValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox87.Location = new System.Drawing.Point(707, 136);
-            this.textBox87.Name = "textBox87";
-            this.textBox87.Size = new System.Drawing.Size(134, 27);
-            this.textBox87.TabIndex = 49;
+            this.txtFixAttributesTotalLevelFOCValue.Location = new System.Drawing.Point(737, 136);
+            this.txtFixAttributesTotalLevelFOCValue.Name = "txtFixAttributesTotalLevelFOCValue";
+            this.txtFixAttributesTotalLevelFOCValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesTotalLevelFOCValue.TabIndex = 49;
             // 
-            // textBox88
+            // txtFixAttributesTotalLevelTRAValue
             // 
-            this.textBox88.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesTotalLevelTRAValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox88.Location = new System.Drawing.Point(707, 169);
-            this.textBox88.Name = "textBox88";
-            this.textBox88.Size = new System.Drawing.Size(134, 27);
-            this.textBox88.TabIndex = 50;
+            this.txtFixAttributesTotalLevelTRAValue.Location = new System.Drawing.Point(737, 169);
+            this.txtFixAttributesTotalLevelTRAValue.Name = "txtFixAttributesTotalLevelTRAValue";
+            this.txtFixAttributesTotalLevelTRAValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesTotalLevelTRAValue.TabIndex = 50;
             // 
-            // textBox89
+            // txtFixAttributesTotalLevelCOMValue
             // 
-            this.textBox89.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesTotalLevelCOMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox89.Location = new System.Drawing.Point(707, 202);
-            this.textBox89.Name = "textBox89";
-            this.textBox89.Size = new System.Drawing.Size(134, 27);
-            this.textBox89.TabIndex = 51;
+            this.txtFixAttributesTotalLevelCOMValue.Location = new System.Drawing.Point(737, 202);
+            this.txtFixAttributesTotalLevelCOMValue.Name = "txtFixAttributesTotalLevelCOMValue";
+            this.txtFixAttributesTotalLevelCOMValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesTotalLevelCOMValue.TabIndex = 51;
             // 
-            // textBox90
+            // txtFixAttributesTotalLevelVIGValue
             // 
-            this.textBox90.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesTotalLevelVIGValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox90.Location = new System.Drawing.Point(707, 235);
-            this.textBox90.Name = "textBox90";
-            this.textBox90.Size = new System.Drawing.Size(134, 27);
-            this.textBox90.TabIndex = 52;
+            this.txtFixAttributesTotalLevelVIGValue.Location = new System.Drawing.Point(737, 235);
+            this.txtFixAttributesTotalLevelVIGValue.Name = "txtFixAttributesTotalLevelVIGValue";
+            this.txtFixAttributesTotalLevelVIGValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesTotalLevelVIGValue.TabIndex = 52;
             // 
-            // textBox91
+            // txtFixAttributesTotalLevelPCValue
             // 
-            this.textBox91.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesTotalLevelPCValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox91.Location = new System.Drawing.Point(707, 268);
-            this.textBox91.Name = "textBox91";
-            this.textBox91.Size = new System.Drawing.Size(134, 27);
-            this.textBox91.TabIndex = 53;
+            this.txtFixAttributesTotalLevelPCValue.Location = new System.Drawing.Point(737, 268);
+            this.txtFixAttributesTotalLevelPCValue.Name = "txtFixAttributesTotalLevelPCValue";
+            this.txtFixAttributesTotalLevelPCValue.Size = new System.Drawing.Size(140, 27);
+            this.txtFixAttributesTotalLevelPCValue.TabIndex = 53;
             // 
-            // textBox92
+            // txtFixAttributesTotalPREValue
             // 
-            this.textBox92.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesTotalPREValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox92.Location = new System.Drawing.Point(848, 70);
-            this.textBox92.Name = "textBox92";
-            this.textBox92.Size = new System.Drawing.Size(135, 27);
-            this.textBox92.TabIndex = 54;
+            this.txtFixAttributesTotalPREValue.Location = new System.Drawing.Point(884, 70);
+            this.txtFixAttributesTotalPREValue.Name = "txtFixAttributesTotalPREValue";
+            this.txtFixAttributesTotalPREValue.Size = new System.Drawing.Size(99, 27);
+            this.txtFixAttributesTotalPREValue.TabIndex = 54;
             // 
-            // textBox93
+            // txtFixAttributesTotalEVAValue
             // 
-            this.textBox93.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesTotalEVAValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox93.Location = new System.Drawing.Point(848, 103);
-            this.textBox93.Name = "textBox93";
-            this.textBox93.Size = new System.Drawing.Size(135, 27);
-            this.textBox93.TabIndex = 55;
+            this.txtFixAttributesTotalEVAValue.Location = new System.Drawing.Point(884, 103);
+            this.txtFixAttributesTotalEVAValue.Name = "txtFixAttributesTotalEVAValue";
+            this.txtFixAttributesTotalEVAValue.Size = new System.Drawing.Size(99, 27);
+            this.txtFixAttributesTotalEVAValue.TabIndex = 55;
             // 
-            // textBox94
+            // txtFixAttributesTotalFOCValue
             // 
-            this.textBox94.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesTotalFOCValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox94.Location = new System.Drawing.Point(848, 136);
-            this.textBox94.Name = "textBox94";
-            this.textBox94.Size = new System.Drawing.Size(135, 27);
-            this.textBox94.TabIndex = 56;
+            this.txtFixAttributesTotalFOCValue.Location = new System.Drawing.Point(884, 136);
+            this.txtFixAttributesTotalFOCValue.Name = "txtFixAttributesTotalFOCValue";
+            this.txtFixAttributesTotalFOCValue.Size = new System.Drawing.Size(99, 27);
+            this.txtFixAttributesTotalFOCValue.TabIndex = 56;
             // 
-            // textBox95
+            // txtFixAttributesTotalCOMValue
             // 
-            this.textBox95.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesTotalCOMValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox95.Location = new System.Drawing.Point(848, 202);
-            this.textBox95.Name = "textBox95";
-            this.textBox95.Size = new System.Drawing.Size(135, 27);
-            this.textBox95.TabIndex = 57;
+            this.txtFixAttributesTotalCOMValue.Location = new System.Drawing.Point(884, 202);
+            this.txtFixAttributesTotalCOMValue.Name = "txtFixAttributesTotalCOMValue";
+            this.txtFixAttributesTotalCOMValue.Size = new System.Drawing.Size(99, 27);
+            this.txtFixAttributesTotalCOMValue.TabIndex = 57;
             // 
-            // textBox96
+            // txtFixAttributesTotalVIGValue
             // 
-            this.textBox96.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesTotalVIGValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox96.Location = new System.Drawing.Point(848, 235);
-            this.textBox96.Name = "textBox96";
-            this.textBox96.Size = new System.Drawing.Size(135, 27);
-            this.textBox96.TabIndex = 58;
+            this.txtFixAttributesTotalVIGValue.Location = new System.Drawing.Point(884, 235);
+            this.txtFixAttributesTotalVIGValue.Name = "txtFixAttributesTotalVIGValue";
+            this.txtFixAttributesTotalVIGValue.Size = new System.Drawing.Size(99, 27);
+            this.txtFixAttributesTotalVIGValue.TabIndex = 58;
             // 
-            // textBox97
+            // txtFixAttributesTotalPCValue
             // 
-            this.textBox97.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtFixAttributesTotalPCValue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox97.Location = new System.Drawing.Point(848, 268);
-            this.textBox97.Name = "textBox97";
-            this.textBox97.Size = new System.Drawing.Size(135, 27);
-            this.textBox97.TabIndex = 59;
+            this.txtFixAttributesTotalPCValue.Location = new System.Drawing.Point(884, 268);
+            this.txtFixAttributesTotalPCValue.Name = "txtFixAttributesTotalPCValue";
+            this.txtFixAttributesTotalPCValue.Size = new System.Drawing.Size(99, 27);
+            this.txtFixAttributesTotalPCValue.TabIndex = 59;
             // 
             // MainScreen
             // 
-            this.ClientSize = new System.Drawing.Size(1011, 1264);
-            this.Controls.Add(this.tableLayoutPanel5);
+            this.ClientSize = new System.Drawing.Size(1011, 1055);
+            this.Controls.Add(this.tlpFixAttributesValues);
             this.Controls.Add(this.tlpFixAttributesHeader);
             this.Controls.Add(this.tlpMutableAttributesValues);
             this.Controls.Add(this.tlpMutableAttributesHeader);
@@ -2742,8 +2742,8 @@ namespace SistemaLDA
             this.tlpMutableAttributesValues.PerformLayout();
             this.tlpFixAttributesHeader.ResumeLayout(false);
             this.tlpFixAttributesHeader.PerformLayout();
-            this.tableLayoutPanel5.ResumeLayout(false);
-            this.tableLayoutPanel5.PerformLayout();
+            this.tlpFixAttributesValues.ResumeLayout(false);
+            this.tlpFixAttributesValues.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2906,70 +2906,70 @@ namespace SistemaLDA
         private TableLayoutPanel tableLayoutPanel3;
         private Label label19;
         private TableLayoutPanel tableLayoutPanel4;
-        private Label label20;
+        private Label lblFixAttributesHeader;
         private TableLayoutPanel tlpFixAttributesHeader;
-        private TableLayoutPanel tableLayoutPanel5;
-        private TextBox textBox50;
-        private TextBox textBox51;
-        private TextBox textBox52;
+        private TableLayoutPanel tlpFixAttributesValues;
+        private TextBox txtFixAttributesTotalTRAValue;
+        private TextBox txtFixAttributesTotalVELValue;
+        private TextBox txtFixAttributesEquipePCValue;
         private Label label21;
         private Label label22;
         private Label label23;
         private Label label24;
         private Label label25;
         private Label label26;
-        private Label label27;
-        private Label label28;
-        private Label label29;
-        private Label label30;
-        private Label label31;
-        private Label label32;
-        private Label label33;
-        private Label label34;
-        private TextBox textBox53;
-        private TextBox textBox54;
-        private TextBox textBox55;
-        private TextBox textBox56;
-        private TextBox textBox57;
-        private TextBox textBox58;
-        private TextBox textBox59;
-        private TextBox textBox60;
-        private TextBox textBox61;
-        private TextBox textBox62;
-        private TextBox textBox63;
-        private TextBox textBox64;
-        private TextBox textBox65;
-        private TextBox textBox66;
-        private TextBox textBox67;
-        private TextBox textBox68;
-        private TextBox textBox69;
-        private TextBox textBox70;
-        private TextBox textBox71;
-        private TextBox textBox72;
-        private TextBox textBox73;
-        private TextBox textBox74;
-        private TextBox textBox75;
-        private TextBox textBox76;
-        private TextBox textBox77;
-        private TextBox textBox78;
-        private TextBox textBox79;
-        private TextBox textBox80;
-        private TextBox textBox81;
-        private TextBox textBox82;
-        private TextBox textBox83;
-        private TextBox textBox84;
-        private TextBox textBox85;
-        private TextBox textBox86;
-        private TextBox textBox87;
-        private TextBox textBox88;
-        private TextBox textBox89;
-        private TextBox textBox90;
-        private TextBox textBox91;
-        private TextBox textBox92;
-        private TextBox textBox93;
-        private TextBox textBox94;
-        private TextBox textBox95;
-        private TextBox textBox96;
-        private TextBox textBox97;
+        private Label lblSpeedPoints;
+        private Label lblPrecisionPoints;
+        private Label lblEvasionPoints;
+        private Label lblFocusPoints;
+        private Label lblTrancePoints;
+        private Label lblConcentrationPoints;
+        private Label lblVigorPoints;
+        private Label lblSConcentrationsPoints;
+        private TextBox txtFixAttributesBaseVELValue;
+        private TextBox txtFixAttributesBasePREValue;
+        private TextBox txtFixAttributesBaseEVAValue;
+        private TextBox txtFixAttributesBaseFOCValue;
+        private TextBox txtFixAttributesBaseTRAValue;
+        private TextBox txtFixAttributesBaseCOMValue;
+        private TextBox txtFixAttributesBaseVIGValue;
+        private TextBox txtFixAttributesBreedVELValue;
+        private TextBox txtFixAttributesBreedPREValue;
+        private TextBox txtFixAttributesBreedEVAValue;
+        private TextBox txtFixAttributesBasePCValue;
+        private TextBox txtFixAttributesBreedFOCValue;
+        private TextBox txtFixAttributesBreedTRAValue;
+        private TextBox txtFixAttributesBreedCOMValue;
+        private TextBox txtFixAttributesBreedVIGValue;
+        private TextBox txtFixAttributesBreedPCValue;
+        private TextBox txtFixAttributesClassVELValue;
+        private TextBox txtFixAttributesClassPREValue;
+        private TextBox txtFixAttributesClassEVAValue;
+        private TextBox txtFixAttributesClassFOCValue;
+        private TextBox txtFixAttributesClassTRAValue;
+        private TextBox txtFixAttributesClassCOMValue;
+        private TextBox txtFixAttributesClassVIGValue;
+        private TextBox txtFixAttributesClassPCValue;
+        private TextBox txtFixAttributesEquipeVELValue;
+        private TextBox txtFixAttributesEquipePREValue;
+        private TextBox txtFixAttributesEquipeEVAValue;
+        private TextBox txtFixAttributesEquipeFOCValue;
+        private TextBox txtFixAttributesEquipeTRAValue;
+        private TextBox txtFixAttributesEquipeCOMValue;
+        private TextBox txtFixAttributesEquipeVIGValue;
+        private TextBox txtFixAttributesTotalLevelVELValue;
+        private TextBox txtFixAttributesTotalLevelPREValue;
+        private TextBox txtFixAttributesTotalLevelEVAValue;
+        private TextBox txtFixAttributesTotalLevelFOCValue;
+        private TextBox txtFixAttributesTotalLevelTRAValue;
+        private TextBox txtFixAttributesTotalLevelCOMValue;
+        private TextBox txtFixAttributesTotalLevelVIGValue;
+        private TextBox txtFixAttributesTotalLevelPCValue;
+        private TextBox txtFixAttributesTotalPREValue;
+        private TextBox txtFixAttributesTotalEVAValue;
+        private TextBox txtFixAttributesTotalFOCValue;
+        private TextBox txtFixAttributesTotalCOMValue;
+        private TextBox txtFixAttributesTotalVIGValue;
+        private TextBox txtFixAttributesTotalPCValue;
     }
 }
